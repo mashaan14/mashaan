@@ -23,7 +23,7 @@ export default function EducationCard() {
             <TimelineDot/>
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent height="150px">
+          <TimelineContent height="200px">
             <Typography>THE UNIVERSITY OF SYDNEY</Typography>
             <Typography>Ph.D. in Computer Science</Typography>
             <Link href="https://ses.library.usyd.edu.au/handle/2123/24091" color="inherit">
@@ -41,7 +41,7 @@ export default function EducationCard() {
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
-          <TimelineContent height="150px">
+          <TimelineContent height="200px">
             <Typography>KFUPM</Typography>
             <Typography>M.Sc. in Computer Science</Typography>
             <Link href="http://eprints.kfupm.edu.sa/139756/" color="inherit">
@@ -58,7 +58,7 @@ export default function EducationCard() {
           <TimelineSeparator>
             <TimelineDot />            
           </TimelineSeparator>
-          <TimelineContent height="150px">
+          <TimelineContent height="200px">
             <Typography>UNIVERSITY OF HAIL</Typography>
             <Typography>B.Sc. in Computer Science</Typography>
           </TimelineContent>
