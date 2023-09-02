@@ -6,6 +6,7 @@ import Type from "./Type";
 import {
   AiFillGithub,
   AiFillYoutube,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -54,6 +55,16 @@ function Home() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto:mashaan.awad@outlook.com"
+                  className="icon-colour  home-social-icons"
+                  target="_blank" 
+                  rel="noopener noreferrer"                  
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>              
               <li className="social-icons">
                 <a
                   href="https://github.com/mashaan14"

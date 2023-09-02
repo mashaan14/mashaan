@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiFillYoutube,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,6 +18,16 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="mailto:mashaan.awad@outlook.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineMail />
+              </a>
+            </li>            
             <li className="social-icons">
               <a
                 href="https://github.com/mashaan14"

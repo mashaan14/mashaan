@@ -25,7 +25,7 @@ function Projects() {
       <br></br> <br></br>
       
       <h1 className="project-heading">
-        <strong>Projects I worked on</strong>
+        <strong>Projects</strong>
       </h1>
 
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
