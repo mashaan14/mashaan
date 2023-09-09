@@ -1,76 +1,38 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
-<br/>
+![website](https://github.com/mashaan14/mashaan/assets/61033787/437d4b17-c5fb-4f16-b597-1c70580dc68d)
 
-<center>
+## Credit
+This website design was inspired by this [repository](https://github.com/soumyajit4419/Portfolio). Any credit should be directed there.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
-</center>
+## Installation
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+1. Install [Node.js](https://nodejs.org/en) on your machine.
 
-## TL;DR
+1. Clone this repository to your local machine.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+2. Open the folder on VSCode and type `npm install` in the terminal to install the dependencies.
 
-## Built With
+3. Run `npm start` to start the app. It should open directly on your default browser. But if it didn't, you can find it on [http://localhost:3000](http://localhost:3000)
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-This project was built using these technologies.
+## Deploying the app on GitHub Pages
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+1. copy this to the top of `package.json`:
+  - `"homepage": "https://mashaan14.github.io/testtest112233",`
 
-## Features
+2. copy these commands to scripts in `package.json`:
+  - `"predeploy": "npm run build",`
+  - `"deploy": "gh-pages -d build"`
 
-**📖 Multi-Page Layout**
+3. Run these commands from the terminal:
+  - `npm install gh-pages --save-dev`
+  - `git init`
+  - `git remote add origin https://github.com/[your username]/[your repo name].git`
+  - `npm run deploy`
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+## Colors
+- main    `#4B668C`
+- dark    `#2D3D54`
+- light   `#EDEFF3`
+- lighter `#A5B2C5`  
