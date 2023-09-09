@@ -11,7 +11,7 @@ import Teaching from "./components/Teaching/Teaching";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
@@ -43,10 +43,10 @@ function App() {
           <Route path="/Experience" element={<Experience />} />
           <Route path="/Education" element={<Education />} />
           <Route path="/Research" element={<Research />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/Projects" element={<Projects />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Teaching" element={<Teaching />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/Resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
