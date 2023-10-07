@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Grid from '@mui/material/Grid';
 import ProjectCard from "./ProjectCards";
 import Github from "./Github";
-import Particle from "../Particle";
 import VisionTransformer from "../../Assets/Projects/VisionTransformer-MNIST.gif";
 import UDA from "../../Assets/Projects/UDA.gif";
 import SGC from "../../Assets/Projects/SGC.gif";
@@ -13,11 +12,11 @@ import RPTree from "../../Assets/Projects/RPTree.png";
 import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
 import SC from "../../Assets/Projects/SC.png";
 import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
+import only_numpy from "../../Assets/Projects/only-numpy.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
 
       <Github />
@@ -29,6 +28,17 @@ function Projects() {
       </h1>
 
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            size = "75%"
+            imgPath={only_numpy}
+            imgTitle={only_numpy}
+            title="only-numpy"
+            description="Breaking machine learning algorithms into small pieces written in numpy functions."
+            Button1Text = "GitHub"
+            Button1Link = "https://github.com/mashaan14/only-numpy"
+          />  
+        </Col>      
         <Col md={4} className="project-card">
           <ProjectCard
             size = "49.25%"
