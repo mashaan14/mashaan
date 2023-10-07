@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.b0c37c57.css",
-    "main.js": "/mashaan/static/js/main.10241b20.js",
+    "main.js": "/mashaan/static/js/main.10921590.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.ea1be5173a30b87149cc.png",
     "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
@@ -14,6 +14,7 @@
     "static/media/ASCNoisy.png": "/mashaan/static/media/ASCNoisy.c92330d6635f89e17318.png",
     "static/media/UOH.png": "/mashaan/static/media/UOH.17f81682097a25ba8b98.png",
     "static/media/ARAMCO.png": "/mashaan/static/media/ARAMCO.76cc42c3913a5d9f0659.png",
+    "static/media/only-numpy.png": "/mashaan/static/media/only-numpy.205c2bca45ef2443e38d.png",
     "static/media/RPTree.png": "/mashaan/static/media/RPTree.cfb1c9381a7b39685c21.png",
     "static/media/SPI.png": "/mashaan/static/media/SPI.81e082fbf93e9d384cc8.png",
     "static/media/RPTree-SpectralNet.png": "/mashaan/static/media/RPTree-SpectralNet.54e934fc83cc6865c483.png",
@@ -22,11 +23,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.b0c37c57.css.map": "/mashaan/static/css/main.b0c37c57.css.map",
-    "main.10241b20.js.map": "/mashaan/static/js/main.10241b20.js.map",
+    "main.10921590.js.map": "/mashaan/static/js/main.10921590.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c37c57.css",
-    "static/js/main.10241b20.js"
+    "static/js/main.10921590.js"
   ]
 }
