@@ -47,7 +47,7 @@ function Experience() {
               imgPath={SABIC}
               title="System Engineer"
               location="SABIC, Jubail, Saudi Arabia"
-              description="I was in charge of securing and maintaining the plant network components. We completed an upgraded for the obsolete network components during online operation."
+              description="I was part of a team that secures and maintains the plant network. We upgraded the servers and network switches during plant online operation. The process involves ordering the hardware ahead, planning the upgrade, and documenting the process for future reference."
               time="2010 - 2012"
       />
       <br/>
@@ -55,7 +55,7 @@ function Experience() {
               imgPath={ARAMCO}
               title="Intern"
               location="Saudi Aramco, Dhahran, Saudi Arabia"
-              description="I completed an internship at ARAMCO's EXPEC ARC (Advanced Research Center). I developed a GUI interface that populates the simulator output, large text files, into a database for easier data access."
+              description="I completed an internship at Aramco's EXPEC ARC (Advanced Research Center). During that time, I developed a GUI that populates the simulator output, which was large text files, into a database for interactive data access."
               time="2009 - 2010"
       />
       </Container>
