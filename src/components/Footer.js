@@ -27,7 +27,17 @@ function Footer() {
               >
                 <AiOutlineMail />
               </a>
-            </li>            
+            </li>  
+            <li className="social-icons">
+              <a
+                href="https://youtube.com/@mashaan14"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillYoutube />
+              </a>
+            </li>                      
             <li className="social-icons">
               <a
                 href="https://github.com/mashaan14"
@@ -46,16 +56,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://youtube.com/@mashaan14"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillYoutube />
               </a>
             </li>
           </ul>

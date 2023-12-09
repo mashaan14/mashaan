@@ -64,6 +64,16 @@ function Home() {
                 >
                   <AiOutlineMail />
                 </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://youtube.com/@mashaan14"
+                  className="icon-colour home-social-icons"
+                  target="_blank" 
+                  rel="noopener noreferrer"                  
+                >
+                  <AiFillYoutube />
+                </a>
               </li>              
               <li className="social-icons">
                 <a
@@ -83,16 +93,6 @@ function Home() {
                   rel="noopener noreferrer"                  
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://youtube.com/@mashaan14"
-                  className="icon-colour home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <AiFillYoutube />
                 </a>
               </li>
             </ul>
