@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.b0c37c57.css",
-    "main.js": "/mashaan/static/js/main.55261416.js",
+    "main.js": "/mashaan/static/js/main.9b223dc4.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.ea1be5173a30b87149cc.png",
     "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
     "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
     "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
-    "static/media/CV.pdf": "/mashaan/static/media/CV.97b9282130c7a79cd9d0.pdf",
+    "static/media/CV.pdf": "/mashaan/static/media/CV.15ce0c006b6423c0d5d3.pdf",
     "static/media/SC.png": "/mashaan/static/media/SC.b9c44d978652882faa4b.png",
     "static/media/VisionTransformer-MNIST.gif": "/mashaan/static/media/VisionTransformer-MNIST.37e59d126eb252573e10.gif",
     "static/media/SCParameterFree.png": "/mashaan/static/media/SCParameterFree.adea15a08cce7be7d60e.png",
@@ -23,11 +23,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.b0c37c57.css.map": "/mashaan/static/css/main.b0c37c57.css.map",
-    "main.55261416.js.map": "/mashaan/static/js/main.55261416.js.map",
+    "main.9b223dc4.js.map": "/mashaan/static/js/main.9b223dc4.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c37c57.css",
-    "static/js/main.55261416.js"
+    "static/js/main.9b223dc4.js"
   ]
 }
