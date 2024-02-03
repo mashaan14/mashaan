@@ -72,7 +72,7 @@ function Home() {
         <br></br> <br></br>
 
         <h1 className="project-heading">
-          <strong>Recent Preprints</strong>
+          <strong>Preprints</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

@@ -19,6 +19,10 @@ const steps = [
       'Information Sciences is a venue for top research in information, knowledge engineering and intelligent systems. I started reviewing for Information Sciences in 2023.',
   },
   {
+    label: 'Knowledge-Based Systems',
+    description: `Knowledge-Based Systems is an international journal in the field of artificial intelligence. I started reviewing for Knowledge-Based Systems in 2024.`,
+  },  
+  {
     label: 'Expert Systems with Applications',
     description: `Expert Systems With Applications publishes original research relating to expert and intelligent systems. I started reviewing for Expert Systems With Applications in 2023.`,
   },

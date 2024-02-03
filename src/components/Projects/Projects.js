@@ -13,6 +13,18 @@ import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
 import SC from "../../Assets/Projects/SC.png";
 import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
 import only_numpy from "../../Assets/Projects/only-numpy.png";
+import YouTube from "../../Assets/Projects/YouTube.png";
+
+/*
+depending on the image you have enter the corresponding "padding-bottom value" in size variable
+aspect ratio  | padding-bottom value
+--------------|----------------------
+    1:1       |       100%
+    16:9      |       56.25%
+    4:3       |       75%
+    3:2       |       66.66%
+    8:5       |       62.5%
+*/
 
 function Projects() {
   return (
@@ -28,6 +40,19 @@ function Projects() {
       </h1>
 
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+      <Col md={4} className="project-card">
+          <ProjectCard
+            size = "56.25%"
+            imgPath={YouTube}
+            imgTitle={YouTube}
+            title="YouTube channel"
+            description="I create videos explaining machine learning methods. The video starts by reading a paper or a book and ends with a code. I cover topics like how a convolutional layer is implemented as matrix multiplication in pytorch."
+            Button1Text = "YouTube"
+            Button1Link = "https://youtube.com/@mashaan14"
+            Button2Text = "GitHub"
+            Button2Link = "https://github.com/mashaan14/YouTube-channel"
+          />  
+        </Col>           
         <Col md={4} className="project-card">
           <ProjectCard
             size = "75%"
