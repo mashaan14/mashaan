@@ -12,8 +12,8 @@ import RPTree from "../../Assets/Projects/RPTree.png";
 import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
 import SC from "../../Assets/Projects/SC.png";
 import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
-import only_numpy from "../../Assets/Projects/only-numpy.png";
 import YouTube from "../../Assets/Projects/YouTube.png";
+import CNN_and_ViT from "../../Assets/Projects/CNN_and_ViT.png";
 
 /*
 depending on the image you have enter the corresponding "padding-bottom value" in size variable
@@ -52,17 +52,6 @@ function Projects() {
             Button2Text = "GitHub"
             Button2Link = "https://github.com/mashaan14/YouTube-channel"
           />  
-        </Col>           
-        <Col md={4} className="project-card">
-          <ProjectCard
-            size = "75%"
-            imgPath={only_numpy}
-            imgTitle={only_numpy}
-            title="only-numpy"
-            description="Breaking machine learning algorithms into small pieces written in numpy functions."
-            Button1Text = "GitHub"
-            Button1Link = "https://github.com/mashaan14/only-numpy"
-          />  
         </Col>      
         <Col md={4} className="project-card">
           <ProjectCard
@@ -71,10 +60,25 @@ function Projects() {
             imgTitle={VisionTransformer}
             title="Visualizing attention maps in MNIST vision transformer"
             description="Vision transformers are taking over CNNs. This code plots the attention maps of a trained vision transformer."
-            Button1Text = "GitHub"
-            Button1Link = "https://github.com/mashaan14/VisionTransformer-MNIST/tree/main"
+            Button1Text = "YouTube"
+            Button1Link = "https://youtu.be/y1ZmMcMYjkY"
+            Button2Text = "GitHub"
+            Button2Link = "https://github.com/mashaan14/VisionTransformer-MNIST/tree/main"
           />
-        </Col>
+        </Col>   
+        <Col md={4} className="project-card">
+          <ProjectCard
+            size = "56.25%"
+            imgPath={CNN_and_ViT}
+            imgTitle={CNN_and_ViT}
+            title="CNN vs ViT"
+            description="Pytorch training and testing of a convolutional neural network (CNN) and a vision transformer (ViT) on cifar-10 dataset."
+            Button1Text = "YouTube"
+            Button1Link = "https://youtu.be/uggBVJebdcY"
+            Button2Text = "GitHub"
+            Button2Link = "https://github.com/mashaan14/YouTube-channel/blob/main/notebooks/2024_01_08_CNN_and_ViT.ipynb"
+          />  
+        </Col>                  
         <Col md={4} className="project-card">
           <ProjectCard
             size = "49.25%"
