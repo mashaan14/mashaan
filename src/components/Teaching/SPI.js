@@ -25,7 +25,13 @@ const steps = [
     title: 'Artificial Intelligence and Innovation',
     description:
       'I designed the teaching materials for this course (lecture slides, assignments, practical sessions, and exams). This course introduces students to informed and uninformed search, adversarial search, classification and advanced reasoning and algorithms.',
-  },  
+  },
+  {
+    code: 'MDS608',
+    title: 'Professional Practice',
+    description:
+      'I designed the teaching materials for this course (lecture slides, assignments, practical sessions, and exams). This course introduces the students to what it means to be a professional in data science, computing, IT and related industries.',
+  },
   {
     code: 'MDS609',
     title: 'Business Intelligence and Analytics',
