@@ -13,7 +13,7 @@ import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
 import SC from "../../Assets/Projects/SC.png";
 import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
 import YouTube from "../../Assets/Projects/YouTube.png";
-import CNN_and_ViT from "../../Assets/Projects/CNN_and_ViT.png";
+import GNN_mini_batch from "../../Assets/Projects/GNN_mini_batch.png";
 
 /*
 depending on the image you have enter the corresponding "padding-bottom value" in size variable
@@ -46,7 +46,7 @@ function Projects() {
             imgPath={YouTube}
             imgTitle={YouTube}
             title="YouTube channel"
-            description="I create videos explaining machine learning methods. The video starts by reading a paper or a book and ends with a code. I cover topics like how a convolutional layer is implemented as matrix multiplication in pytorch."
+            description="I create videos explaining machine learning methods. The video starts by reading a paper or a book and ends with a code."
             Button1Text = "YouTube"
             Button1Link = "https://youtube.com/@mashaan14"
             Button2Text = "GitHub"
@@ -69,14 +69,14 @@ function Projects() {
         <Col md={4} className="project-card">
           <ProjectCard
             size = "56.25%"
-            imgPath={CNN_and_ViT}
-            imgTitle={CNN_and_ViT}
-            title="CNN vs ViT"
-            description="Pytorch training and testing of a convolutional neural network (CNN) and a vision transformer (ViT) on cifar-10 dataset."
+            imgPath={GNN_mini_batch}
+            imgTitle={GNN_mini_batch}
+            title="Mini Batches in Graph Neural Network"
+            description="Neural nets are trained in mini batches. Mini batching points or images is easy. But mini batching nodes on a graph is not straightforward. In this video, I talked about creating mini batches for Graph Neural Network (GNN) training."
             Button1Text = "YouTube"
-            Button1Link = "https://youtu.be/uggBVJebdcY"
+            Button1Link = "https://youtu.be/ZfCtFLS_os0"
             Button2Text = "GitHub"
-            Button2Link = "https://github.com/mashaan14/YouTube-channel/blob/main/notebooks/2024_01_08_CNN_and_ViT.ipynb"
+            Button2Link = "https://github.com/mashaan14/YouTube-channel/blob/main/notebooks/2024_04_29_GNN_mini_batch.ipynb"
           />  
         </Col>                  
         <Col md={4} className="project-card">
