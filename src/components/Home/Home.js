@@ -9,6 +9,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Flag } from 'semantic-ui-react';
 
 function Home() {
   return (
@@ -48,7 +49,7 @@ function Home() {
             <p className="home-about-body">
             I currently work as a machine learning researcher. My research interests lie broadly in graph clustering and deep learning. I also do some artificial intelligence consultations for organizations in Saudi Arabia.
             <br /><br />
-            I started my career back in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue my career in academia. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM) 👨‍🎓</b></a> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney 👨‍🎓</b></a> in 2021.
+            I started my career back in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue my career in academia. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM)</b></a> 👨‍🎓 <Flag name='sa' /> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> 👨‍🎓 <Flag name='au' /> in 2021.
             </p>
         </Row>          
         <Row>

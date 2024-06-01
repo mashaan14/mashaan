@@ -8,6 +8,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
+import { Flag } from 'semantic-ui-react';
 
 
 export default function EducationCard() {
@@ -17,7 +18,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="textSecondary">2017 - 2021</Typography>
-            <Typography color="textSecondary">Sydney, Australia</Typography>
+            <Typography color="textSecondary">Sydney, Australia <Flag name='au' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot/>
@@ -35,7 +36,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="textSecondary">2013 - 2016</Typography>
-            <Typography color="textSecondary">Dhahran, Saudi Arabia</Typography>
+            <Typography color="textSecondary">Dhahran, Saudi Arabia <Flag name='sa' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -53,7 +54,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="textSecondary">2005 - 2010</Typography>
-            <Typography color="textSecondary">Hail, Saudi Arabia</Typography>
+            <Typography color="textSecondary">Hail, Saudi Arabia <Flag name='sa' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />            
