@@ -39,6 +39,12 @@ const steps = [
       'I designed the teaching materials for this course (lecture slides, assignments, practical sessions, and exams). This course provides students the foundations of business analytics and business intelligence.',
   },
   {
+    code: 'MDS615',
+    title: 'Cloud Computing and Application Development',
+    description:
+      'I designed the teaching materials for this course (lecture slides, assignments, practical sessions, and exams). In this course, students learn about cloud service models and how to build applications on the cloud.',
+  },
+  {
     code: 'U322',
     title: 'Full-stack development',
     description: `I designed the outline and planner for this course as per the Australian Qualifications Framework (AQF). This course introduces students to the Internet and programming web applications.`,

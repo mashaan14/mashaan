@@ -74,9 +74,9 @@ function Projects() {
             title="Mini Batches in Graph Neural Network"
             description="Neural nets are trained in mini batches. Mini batching points or images is easy. But mini batching nodes on a graph is not straightforward. In this video, I talked about creating mini batches for Graph Neural Network (GNN) training."
             Button1Text = "YouTube"
-            Button1Link = "https://youtu.be/ZfCtFLS_os0"
+            Button1Link = "https://youtu.be/y0poBC8xN1k"
             Button2Text = "GitHub"
-            Button2Link = "https://github.com/mashaan14/YouTube-channel/blob/main/notebooks/2024_04_29_GNN_mini_batch.ipynb"
+            Button2Link = "https://github.com/mashaan14/YouTube-channel/blob/main/notebooks/2024_05_27_GNN_sampling.ipynb"
           />  
         </Col>                  
         <Col md={4} className="project-card">
