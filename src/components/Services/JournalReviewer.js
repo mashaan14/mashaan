@@ -14,6 +14,10 @@ const steps = [
     description: `Pattern Recognition was established 50 years ago. It is one of the top venues for machine learning research. I started reviewing for PR in 2021.`,
   },
   {
+    label: 'Neurocomputing',
+    description: `Neurocomputing is a peer-reviewed scientific journal covering research on artificial intelligence, machine learning, and neural computation. It was established in 1989 and is published by Elsevier. I started reviewing for Neurocomputing in 2024.`,
+  },
+  {
     label: 'Information Sciences',
     description:
       'Information Sciences is a venue for top research in information, knowledge engineering and intelligent systems. I started reviewing for Information Sciences in 2023.',
@@ -21,7 +25,11 @@ const steps = [
   {
     label: 'Knowledge-Based Systems',
     description: `Knowledge-Based Systems is an international journal in the field of artificial intelligence. I started reviewing for Knowledge-Based Systems in 2024.`,
-  },  
+  },
+  {
+    label: 'ICT Express',
+    description: `The ICT Express journal published by the Korean Institute of Communications and Information Sciences (KICS) is an international, peer-reviewed research publication covering all aspects of information and communication technology. I started reviewing for ICT Express in 2024.`,
+  },
   {
     label: 'Expert Systems with Applications',
     description: `Expert Systems With Applications publishes original research relating to expert and intelligent systems. I started reviewing for Expert Systems With Applications in 2023.`,
