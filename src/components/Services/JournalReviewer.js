@@ -86,7 +86,7 @@ export default function JournalReviewer() {
         position="static"
         activeStep={activeStep}
         nextButton={
-          <Button
+          <Button 
             size="small"
             onClick={handleNext}
             disabled={activeStep === maxSteps - 1}
