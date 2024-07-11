@@ -34,7 +34,7 @@ export default function Conference() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1, borderColor: '#4B668C', bgcolor: '#EDEFF3'}}>
+    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1, borderColor: '#13273f', bgcolor: '#f9fdfe'}}>
       <Paper
         square
         elevation={0}
@@ -44,10 +44,10 @@ export default function Conference() {
           textAlign: 'left',
           height: 50,
           pl: 2,
-          bgcolor: 'background.default',
+          bgcolor: '#cc9169',
         }}
       >
-        <Typography variant="body1" fontWeight="bold">{steps[activeStep].label}</Typography>
+        <Typography variant="body1" color="#13273f" fontWeight="bold">{steps[activeStep].label}</Typography>
       </Paper>
       <Box sx={{ height: 255, maxWidth: 400, width: '100%', p: 2, textAlign: 'left'}}>
         {steps[activeStep].description}
