@@ -20,6 +20,18 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401"
+    },
+    secondary: {
+      main: "#13273f"
+    }
+  }
+});
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -33,25 +45,33 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />          
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Education" element={<Education />} />
-          <Route path="/Research" element={<Research />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Teaching" element={<Teaching />} />
-          <Route path="/Resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <ThemeProvider theme={theme}>
+      <Router>
+        <Preloader load={load} />
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <Navbar />
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Home />} />          
+            <Route path="/Experience" element={<Experience />} />
+            <Route path="/Education" element={<Education />} />
+            <Route path="/Research" element={<Research />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/Teaching" element={<Teaching />} />
+            <Route path="/Resume" element={<Resume />} />
+            <Route path="*" element={<Navigate to="/"/>} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
+  );
+
+  return (
+    <ThemeProvider theme={theme}>
+      // MUI components
+    </ThemeProvider>
   );
 }
 
