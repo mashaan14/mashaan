@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.da31e0bd.css",
-    "main.js": "/mashaan/static/js/main.36016fa0.js",
+    "main.css": "/mashaan/static/css/main.1fa5ef13.css",
+    "main.js": "/mashaan/static/js/main.386302bc.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
     "static/media/YouTube.png": "/mashaan/static/media/YouTube.751518ac8519fba9d5d4.png",
@@ -39,12 +39,12 @@
     "static/media/outline-icons.woff2": "/mashaan/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
-    "main.da31e0bd.css.map": "/mashaan/static/css/main.da31e0bd.css.map",
-    "main.36016fa0.js.map": "/mashaan/static/js/main.36016fa0.js.map",
+    "main.1fa5ef13.css.map": "/mashaan/static/css/main.1fa5ef13.css.map",
+    "main.386302bc.js.map": "/mashaan/static/js/main.386302bc.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da31e0bd.css",
-    "static/js/main.36016fa0.js"
+    "static/css/main.1fa5ef13.css",
+    "static/js/main.386302bc.js"
   ]
 }
