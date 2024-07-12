@@ -20,18 +20,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#fe2401"
-    },
-    secondary: {
-      main: "#13273f"
-    }
-  }
-});
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -45,7 +34,6 @@ function App() {
   }, []);
 
   return (
-    <ThemeProvider theme={theme}>
       <Router>
         <Preloader load={load} />
         <div className="App" id={load ? "no-scroll" : "scroll"}>
@@ -65,14 +53,8 @@ function App() {
           <Footer />
         </div>
       </Router>
-    </ThemeProvider>
   );
 
-  return (
-    <ThemeProvider theme={theme}>
-      // MUI components
-    </ThemeProvider>
-  );
 }
 
 export default App;

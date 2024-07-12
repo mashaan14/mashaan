@@ -1,12 +1,25 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import { useTheme } from '@mui/material/styles';
 import MobileStepper from '@mui/material/MobileStepper';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401",
+      light: "#cc9169",
+      lighter: "#f9fdfe",
+    },
+    secondary: {
+      main: "#13273f",
+    }
+  },
+});
 
 const steps = [
   {
@@ -49,7 +62,6 @@ const steps = [
 ];
 
 export default function JournalReviewer() {
-  const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = steps.length;
 
@@ -60,9 +72,10 @@ export default function JournalReviewer() {
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
-
+//, borderColor: '#13273f', bgcolor: '#f9fdfe'
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1, borderColor: '#13273f', bgcolor: '#f9fdfe'}}>
+    <ThemeProvider theme={theme}>      
+    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1}}>
       <Paper
         square
         elevation={0}
@@ -75,7 +88,7 @@ export default function JournalReviewer() {
           bgcolor: '#cc9169',
         }}
       >
-        <Typography variant="body1" color="#13273f" fontWeight="bold">{steps[activeStep].label}</Typography>
+        <Typography variant="body1" color="secondary" fontWeight="bold">{steps[activeStep].label}</Typography>
       </Paper>
       <Box sx={{ height: 255, maxWidth: 400, width: '100%', p: 2, textAlign: 'left'}}>
         {steps[activeStep].description}
@@ -111,5 +124,6 @@ export default function JournalReviewer() {
         }
       />
     </Box>
+    </ThemeProvider>
   );
 }

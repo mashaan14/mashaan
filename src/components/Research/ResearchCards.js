@@ -5,6 +5,20 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401",
+      light: "#cc9169",
+      lighter: "#f9fdfe",
+    },
+    secondary: {
+      main: "#13273f",
+    }
+  },
+});
 
 const bull = (
   <Box
@@ -17,38 +31,42 @@ const bull = (
 
 export default function ResearchCard(props) {
   return (
+    <ThemeProvider theme={theme}>
     <Card sx={{ minWidth: 275 }} className="project-card-view">
       <CardContent>
-        <Typography align="left" sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        <Typography align="left" sx={{ fontSize: 14 }} color="primary.light" gutterBottom>
           {props.author}          
         </Typography>
         <Typography align="left" variant="h5" component="div">
           {props.title}          
         </Typography>
-        <Typography align="left" sx={{ mb: 1.5 }} color="text.secondary">
+        <Typography align="left" sx={{ mb: 1.5 }} color="primary.light">
           {props.journal}          
         </Typography>
       </CardContent>
       <CardActions>
         {props.Button1Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button
           size="small"
+          color="primary"
           href={props.Button1Link}
         >
           {props.Button1Text}          
         </Button>
         )}
         {props.Button2Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button
           size="small"
+          color="primary"
           href={props.Button2Link}
         >
           {props.Button2Text}          
         </Button>
         )}
         {props.Button3Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button
           size="small"
+          color="primary"
           href={props.Button3Link}
         >
           {props.Button3Text}          
@@ -56,5 +74,6 @@ export default function ResearchCard(props) {
         )}        
       </CardActions>
     </Card>
+    </ThemeProvider>
   );
 }

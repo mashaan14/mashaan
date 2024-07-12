@@ -9,24 +9,39 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import { Flag } from 'semantic-ui-react';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401",
+      light: "#cc9169",
+      lighter: "#f9fdfe",
+    },
+    secondary: {
+      main: "#13273f",
+    }
+  },
+});
 
 
 export default function EducationCard() {
   return (
+    <ThemeProvider theme={theme}>
       <Timeline align="alternate" >
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <Typography>2017 - 2021</Typography>
-            <Typography>Sydney, Australia <Flag name='au' /></Typography>
+            <Typography color="primary">2017 - 2021</Typography>
+            <Typography color="secondary">Sydney, Australia <Flag name='au' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot/>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent height="200px">
-            <Typography>THE UNIVERSITY OF SYDNEY</Typography>
-            <Typography>Ph.D. in Computer Science</Typography>
+            <Typography color="secondary">THE UNIVERSITY OF SYDNEY</Typography>
+            <Typography color="primary.light">Ph.D. in Computer Science</Typography>
             <Link href="https://ses.library.usyd.edu.au/handle/2123/24091" color="inherit">
               {'Thesis'}
             </Link>
@@ -35,16 +50,16 @@ export default function EducationCard() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <Typography>2013 - 2016</Typography>
-            <Typography>Dhahran, Saudi Arabia <Flag name='sa' /></Typography>
+            <Typography color="primary">2013 - 2016</Typography>
+            <Typography color="secondary">Dhahran, Saudi Arabia <Flag name='sa' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent height="200px">
-            <Typography>KFUPM</Typography>
-            <Typography>M.Sc. in Computer Science</Typography>
+            <Typography color="secondary">KFUPM</Typography>
+            <Typography color="primary.light">M.Sc. in Computer Science</Typography>
             <Link href="http://eprints.kfupm.edu.sa/139756/" color="inherit">
               {'Thesis'}
             </Link>
@@ -53,17 +68,18 @@ export default function EducationCard() {
 
         <TimelineItem>
           <TimelineOppositeContent>
-            <Typography>2005 - 2010</Typography>
+            <Typography color="primary">2005 - 2010</Typography>
             <Typography>Hail, Saudi Arabia <Flag name='sa' /></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />            
           </TimelineSeparator>
           <TimelineContent height="200px">
-            <Typography>UNIVERSITY OF HAIL</Typography>
-            <Typography>B.Sc. in Computer Science</Typography>
+            <Typography color="secondary">UNIVERSITY OF HAIL</Typography>
+            <Typography color="primary.light">B.Sc. in Computer Science</Typography>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
+    </ThemeProvider>
   );
 }

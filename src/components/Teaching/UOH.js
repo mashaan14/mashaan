@@ -7,6 +7,20 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401",
+      light: "#cc9169",
+      lighter: "#f9fdfe",
+    },
+    secondary: {
+      main: "#13273f",
+    }
+  },
+});
 
 const steps = [
   {
@@ -41,7 +55,6 @@ const steps = [
 ];
 
 export default function UOH() {
-  const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = steps.length;
 
@@ -54,7 +67,8 @@ export default function UOH() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1, borderColor: '#13273f', bgcolor: '#f9fdfe'}}>
+    <ThemeProvider theme={theme}>
+    <Box sx={{ maxWidth: 400, flexGrow: 1, border: 1}}>
       <Paper
         square
         elevation={0}
@@ -117,5 +131,6 @@ export default function UOH() {
         }
       />
     </Box>
+    </ThemeProvider>
   );
 }

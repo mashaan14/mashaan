@@ -4,6 +4,19 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#fe2401",
+      light: "#cc9169",
+    },
+    secondary: {
+      main: "#13273f",
+    }
+  },
+});
 
 
 const Img = styled('img')({
@@ -15,6 +28,7 @@ const Img = styled('img')({
 
 export default function Experiencecard(props) {
   return (
+    <ThemeProvider theme={theme}>
     <Paper className="Experience-card-view"
       sx={{
         p: 2,
@@ -30,25 +44,26 @@ export default function Experiencecard(props) {
         </Grid>
         <Grid item xs={12} sm container>
             <Grid item xs={8}>
-              <Typography gutterBottom variant="subtitle1" component="div" align="left">
+              <Typography gutterBottom variant="subtitle1" color="secondary" component="div" align="left">
                 {props.title}
               </Typography>
-              <Typography variant="body2" gutterBottom align="left">
+              <Typography variant="body2" color="primary.light" gutterBottom align="left">
                 {props.location}
               </Typography>
             </Grid>
             <Grid item xs={4}>
-              <Typography variant="subtitle1" component="div">
+              <Typography variant="subtitle1" color="primary" component="div">
                 {props.time}
               </Typography>
             </Grid>
           <Grid item xs={12}>
-            <Typography variant="body2" color="text.secondary" align="left">
+            <Typography variant="body2" color="secondary" align="left">
               {props.description}
             </Typography>
           </Grid>
         </Grid>
       </Grid>
-    </Paper>        
+    </Paper>
+    </ThemeProvider>
   );
 }
