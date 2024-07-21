@@ -34,13 +34,13 @@ export default function ResearchCard(props) {
     <ThemeProvider theme={theme}>
     <Card sx={{ minWidth: 275 }} className="project-card-view">
       <CardContent>
-        <Typography align="left" sx={{ fontSize: 14 }} color="primary.light" gutterBottom>
+        <Typography align="left" sx={{ fontSize: 14 }} color="secondary" gutterBottom>
           {props.author}          
         </Typography>
         <Typography align="left" variant="h5" component="div">
           {props.title}          
         </Typography>
-        <Typography align="left" sx={{ mb: 1.5 }} color="primary.light">
+        <Typography align="left" sx={{ mb: 1.5 }} color="primary">
           {props.journal}          
         </Typography>
       </CardContent>

@@ -47,7 +47,7 @@ export default function Experiencecard(props) {
               <Typography gutterBottom variant="subtitle1" color="secondary" component="div" align="left">
                 {props.title}
               </Typography>
-              <Typography variant="body2" color="primary.light" gutterBottom align="left">
+              <Typography variant="body2" color="primary" gutterBottom align="left">
                 {props.location}
               </Typography>
             </Grid>
