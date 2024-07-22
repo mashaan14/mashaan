@@ -2,7 +2,5 @@
 body {
   margin: 0;
   font-family: "Roboto", serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, #f9fdfe, #cc9169);
 }
+
