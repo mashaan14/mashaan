@@ -12,8 +12,8 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#fe2401",
-      light: "#cc9169",
+      main: "#BD570F",
+      light: "#DEAB87",
       lighter: "#f9fdfe",
     },
     secondary: {
@@ -58,7 +58,7 @@ export default function Consultation() {
           textAlign: 'left',
           height: 50,
           pl: 2,
-          bgcolor: '#cc9169',
+          bgcolor: '#DEAB87',
         }}
       >
         <Typography variant="body1" color="#13273f" fontWeight="bold">{steps[activeStep].label}</Typography>

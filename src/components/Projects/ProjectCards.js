@@ -24,7 +24,7 @@ export default function ResearchCard(props) {
       </CardContent>
       <CardActions>
       {props.Button1Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button sx={{ color: "#BD570F" }}
           size="small"
           href={props.Button1Link}
         >
@@ -32,7 +32,7 @@ export default function ResearchCard(props) {
         </Button>
         )}
         {props.Button2Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button sx={{ color: "#BD570F" }}
           size="small"
           href={props.Button2Link}
         >
@@ -40,7 +40,7 @@ export default function ResearchCard(props) {
         </Button>
         )}
         {props.Button3Text && (
-        <Button sx={{ color: "#fe2401" }}
+        <Button sx={{ color: "#BD570F" }}
           size="small"
           href={props.Button3Link}
         >

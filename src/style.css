@@ -64,18 +64,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #cc9169;
+  background: #DEAB87;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #cc9169;
+  background: #DEAB87;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #cc9169;
+  background: #DEAB87;
   border-radius: 12px;
 }
 
@@ -83,9 +83,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #cc9169 !important;
+  background-color: #DEAB87 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #cc9169 !important;
+  box-shadow: 0px 10px 10px 0px #DEAB87 !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -151,7 +151,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #cc9169 !important;
+    background-color: #DEAB87 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -300,12 +300,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #fe2401 !important;
+  color: #BD570F !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #fe2401 !important;
+  color: #BD570F !important;
 }
 
 @media (max-width: 767px) {
@@ -376,7 +376,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: #fe2401 !important;
+  background: #BD570F !important;
   border-radius: 30% !important;
   transition: 0.5s !important;
 }
@@ -397,13 +397,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #fe2401;
+  box-shadow: 0 0 15px #BD570F;
 }
 
 .home-social-icons:hover {
-  color: #fe2401;
-  box-shadow: 0 0 5px #fe2401;
-  text-shadow: 0 0 2px #fe2401;
+  color: #BD570F;
+  box-shadow: 0 0 5px #BD570F;
+  text-shadow: 0 0 2px #BD570F;
 }
 
 .social-icons {
@@ -420,7 +420,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #cc9169;
+  background-color: #DEAB87;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -459,7 +459,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #cc9169 !important;
+  color: #DEAB87 !important;
 }
 /* --------- */
 /* Projects */
@@ -489,7 +489,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #cc9169 !important;
+  box-shadow: 0 4px 4px 5px #DEAB87 !important;
 }
 
 .blog-card {
@@ -502,7 +502,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px #cc9169 !important;
+  box-shadow: 0 3px 3px 2px #DEAB87 !important;
   color: #13273f !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -520,7 +520,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px #cc9169 !important;
+  box-shadow: 0 3px 3px 5px #DEAB87 !important;
 }
 
 .card-img-top {
@@ -543,8 +543,8 @@ button:focus {
 
 .btn-primary:hover {
   color: #f9fdfe !important;
-  background-color: #fe2401 !important;
-  border-color: #fe2401 !important;
+  background-color: #BD570F !important;
+  border-color: #BD570F !important;
 }
 .btn:focus {
   outline: none !important;
@@ -578,7 +578,7 @@ button:focus {
 .Experience-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #cc9169 !important;
+  box-shadow: 0 4px 4px 5px #DEAB87 !important;
 }
 
 /* --------- */
@@ -599,7 +599,7 @@ button:focus {
   font-size: 1.2em !important;
   line-height: 2em !important;
   color: #f9fdfe !important;
-  background: #fe2401 !important;
+  background: #BD570F !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -619,13 +619,13 @@ button:focus {
 
 .research-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #fe2401;
+  box-shadow: 0 0 15px #BD570F;
 }
 
 .research-icons:hover {
-  color: #fe2401;
-  box-shadow: 0 0 5px #fe2401;
-  text-shadow: 0 0 2px #fe2401;
+  color: #BD570F;
+  box-shadow: 0 0 5px #BD570F;
+  text-shadow: 0 0 2px #BD570F;
 }
 
 /* --------- */
@@ -647,7 +647,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: #fe2401 !important;
+  color: #BD570F !important;
 }
 
 .resume {
@@ -685,14 +685,14 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #fe2401;
+  border-left: 2px solid #BD570F;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #fe2401;
+  background: #BD570F;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -721,8 +721,8 @@ button:focus {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fe2401;
-  border: 2px solid #fe2401;
+  background: #BD570F;
+  border: 2px solid #BD570F;
 }
 
 .like-item {
@@ -732,8 +732,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #fe2401 !important;
-  border-color: #fe2401 !important;
+  background-color: #BD570F !important;
+  border-color: #BD570F !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -742,8 +742,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #fe2401 !important;
-  border-color: #fe2401 !important;
+  background-color: #BD570F !important;
+  border-color: #BD570F !important;
 }
 
 .animate-like {
