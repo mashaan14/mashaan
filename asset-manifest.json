@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.a53b9556.css",
-    "main.js": "/mashaan/static/js/main.56669eb4.js",
+    "main.css": "/mashaan/static/css/main.0b88ca08.css",
+    "main.js": "/mashaan/static/js/main.0ef05d51.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
-    "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.ba056883f38f83f1cabc.png",
-    "static/media/YouTube.png": "/mashaan/static/media/YouTube.eaafda6840cf2c20847d.png",
+    "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.ce325a9b77e8eda20c23.png",
+    "static/media/YouTube.png": "/mashaan/static/media/YouTube.70ce224a5bcaef824569.png",
     "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
     "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
     "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
@@ -39,12 +39,12 @@
     "static/media/outline-icons.woff2": "/mashaan/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
-    "main.a53b9556.css.map": "/mashaan/static/css/main.a53b9556.css.map",
-    "main.56669eb4.js.map": "/mashaan/static/js/main.56669eb4.js.map",
+    "main.0b88ca08.css.map": "/mashaan/static/css/main.0b88ca08.css.map",
+    "main.0ef05d51.js.map": "/mashaan/static/js/main.0ef05d51.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a53b9556.css",
-    "static/js/main.56669eb4.js"
+    "static/css/main.0b88ca08.css",
+    "static/js/main.0ef05d51.js"
   ]
 }
