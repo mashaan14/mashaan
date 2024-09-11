@@ -1,14 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/avatar.png";
-import Particle from "../Particle";
 import Type from "./Type";
-import {
-  AiFillGithub,
-  AiFillYoutube,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaRegEnvelope, FaYoutube, FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { Flag } from 'semantic-ui-react';
 
 function Home() {
@@ -66,7 +60,7 @@ function Home() {
                   target="_blank" 
                   rel="noopener noreferrer"                  
                 >
-                  <AiOutlineMail />
+                  <FaRegEnvelope />
                 </a>
               </li>
               <li className="social-icons">
@@ -76,7 +70,7 @@ function Home() {
                   target="_blank" 
                   rel="noopener noreferrer"                  
                 >
-                  <AiFillYoutube />
+                  <FaYoutube />
                 </a>
               </li>              
               <li className="social-icons">
@@ -86,9 +80,19 @@ function Home() {
                   target="_blank" 
                   rel="noopener noreferrer"                  
                 >
-                  <AiFillGithub />
+                  <FaGithub />
                 </a>
               </li>
+              <li className="social-icons">
+                <a
+                  href="https://x.com/mashaan_14"
+                  className="icon-colour  home-social-icons"
+                  target="_blank" 
+                  rel="noopener noreferrer"                  
+                >
+                  <FaXTwitter />
+                </a>
+              </li>              
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/mashaan"

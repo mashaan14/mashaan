@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaRegEnvelope, FaYoutube, FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   let date = new Date();
@@ -25,7 +25,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineMail />
+                <FaRegEnvelope />
               </a>
             </li>  
             <li className="social-icons">
@@ -35,7 +35,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillYoutube />
+                <FaYoutube />
               </a>
             </li>                      
             <li className="social-icons">
@@ -45,9 +45,19 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaGithub />
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="https://x.com/mashaan_14"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter />
+              </a>
+            </li>            
             <li className="social-icons">
               <a
                 href="https://linkedin.com/in/mashaan"
