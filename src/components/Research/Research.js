@@ -1,21 +1,17 @@
 import React from "react";
 import Grid from '@mui/material/Grid';
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import ResearchCards from "./ResearchCards";
-import {
-  SiOrcid,
-  SiGooglescholar,
-  SiScopus,
-  SiPublons,  
-} from "react-icons/si";
+import { SiGooglescholar, SiClarivate } from "react-icons/si";
+import { ReactComponent as Icon_orcid} from "../../Assets/Icon_orcid.svg";
+import { ReactComponent as Icon_scopus} from "../../Assets/Icon_scopus.svg";
+
 
 function Home() {
   return (
     <section>
       <Container fluid>
         <Container className="research-content">
-
         <Grid container spacing={2}
               alignItems="center"
               justifyContent="center">
@@ -27,7 +23,7 @@ function Home() {
                 target="_blank" 
                 rel="noopener noreferrer"                  
               >
-                <SiOrcid className="research-icons"/>
+                <Icon_orcid className="research-icons"/>
               </a>
             </p>
           </Grid>
@@ -51,7 +47,7 @@ function Home() {
                 target="_blank" 
                 rel="noopener noreferrer"                  
               >
-                <SiScopus className="research-icons"/>
+                <Icon_scopus className="research-icons"/>
               </a>
             </p>
           </Grid>
@@ -63,7 +59,7 @@ function Home() {
                 target="_blank" 
                 rel="noopener noreferrer"                  
               >
-                <SiPublons className="research-icons"/>
+                <SiClarivate className="research-icons"/>
               </a>
             </p>
           </Grid>                              

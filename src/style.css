@@ -597,9 +597,9 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  color: #f9fdfe !important;
+  color: #f9fdfe;
   background: #BD570F !important;
-  border-radius: 50% !important;
+  border-radius: 15% !important;
   transition: 0.5s !important;
 }
 
@@ -610,7 +610,8 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 30%;
+  background: #f9fdfe;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
