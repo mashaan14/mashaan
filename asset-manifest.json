@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.0b88ca08.css",
-    "main.js": "/mashaan/static/js/main.c09f5cbc.js",
+    "main.css": "/mashaan/static/css/main.baa51cd5.css",
+    "main.js": "/mashaan/static/js/main.3c710902.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
     "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.fbeb46c96d52c730e996.png",
@@ -37,14 +37,16 @@
     "static/media/freelance.png": "/mashaan/static/media/freelance.e44e04a6c81b435f06de.png",
     "static/media/outline-icons.woff": "/mashaan/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/mashaan/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
+    "static/media/Icon_orcid.svg": "/mashaan/static/media/Icon_orcid.0ec42e34706f460a9894b4b4c494fa09.svg",
+    "static/media/Icon_scopus.svg": "/mashaan/static/media/Icon_scopus.2904e64b5ef1bbebf9b72c8ee6cce829.svg",
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
-    "main.0b88ca08.css.map": "/mashaan/static/css/main.0b88ca08.css.map",
-    "main.c09f5cbc.js.map": "/mashaan/static/js/main.c09f5cbc.js.map",
+    "main.baa51cd5.css.map": "/mashaan/static/css/main.baa51cd5.css.map",
+    "main.3c710902.js.map": "/mashaan/static/js/main.3c710902.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b88ca08.css",
-    "static/js/main.c09f5cbc.js"
+    "static/css/main.baa51cd5.css",
+    "static/js/main.3c710902.js"
   ]
 }
