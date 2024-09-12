@@ -25,7 +25,7 @@ const Img = styled('img')({
   maxWidth: '100%',
   maxHeight: '100%',
 });
-
+//<Img alt="complex" src={props.imgPath}/>
 export default function Experiencecard(props) {
   return (
     <ThemeProvider theme={theme}>
@@ -39,7 +39,7 @@ export default function Experiencecard(props) {
       <Grid container spacing={2}>
         <Grid item>
           <ButtonBase sx={{ width: 128, height: 128 }}>
-            <Img alt="complex" src={props.imgPath}/>
+            <props.imgPath className="Experience-icons"/>            
           </ButtonBase>
         </Grid>
         <Grid item xs={12} sm container>

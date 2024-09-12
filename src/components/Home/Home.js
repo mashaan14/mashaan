@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/avatar.png";
 import Type from "./Type";
 import { FaRegEnvelope, FaYoutube, FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
-import { Flag } from 'semantic-ui-react';
+import { ReactComponent as Flag_of_Saudi_Arabia} from "../../Assets/Flag_of_Saudi_Arabia.svg";
+import { ReactComponent as Flag_of_Australia} from "../../Assets/Flag_of_Australia.svg";
 
 function Home() {
   return (
@@ -43,11 +44,14 @@ function Home() {
             </Col>
           </Row>
           <Row md={8} className="home-about-description">
+          <div>
             <p className="home-about-body">
             I currently work as a machine learning researcher. My research interests lie broadly in graph clustering and deep learning. I also do some artificial intelligence consultations for organizations in Saudi Arabia.
             <br /><br />
-            I started my career back in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue my career in academia. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM)</b></a> 👨‍🎓 <Flag name='sa' /> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> 👨‍🎓 <Flag name='au' /> in 2021.
+            I started my career back in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue my career in academia. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM)</b></a> 👨‍🎓 
+            <Flag_of_Saudi_Arabia className="flag-icons"/> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> 👨‍🎓 <Flag_of_Australia className="flag-icons"/> in 2021.
             </p>
+          </div>
         </Row>          
         <Row>
           <Col md={12} className="home-about-social">

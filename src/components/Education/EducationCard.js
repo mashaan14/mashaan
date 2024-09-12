@@ -10,6 +10,8 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import { Flag } from 'semantic-ui-react';
 import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { ReactComponent as Flag_of_Saudi_Arabia} from "../../Assets/Flag_of_Saudi_Arabia.svg";
+import { ReactComponent as Flag_of_Australia} from "../../Assets/Flag_of_Australia.svg";
 
 const theme = createTheme({
   palette: {
@@ -33,7 +35,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="primary">2017 - 2021</Typography>
-            <Typography color="secondary">Sydney, Australia <Flag name='au' /></Typography>
+            <Typography color="secondary">Sydney, Australia <Flag_of_Australia className="flag-icons"/></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot/>
@@ -51,7 +53,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="primary">2013 - 2016</Typography>
-            <Typography color="secondary">Dhahran, Saudi Arabia <Flag name='sa' /></Typography>
+            <Typography color="secondary">Dhahran, Saudi Arabia <Flag_of_Saudi_Arabia className="flag-icons"/></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />
@@ -69,7 +71,7 @@ export default function EducationCard() {
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography color="primary">2005 - 2010</Typography>
-            <Typography>Hail, Saudi Arabia <Flag name='sa' /></Typography>
+            <Typography>Hail, Saudi Arabia <Flag_of_Saudi_Arabia className="flag-icons"/></Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot />            

@@ -416,6 +416,14 @@ button:focus {
   color: #f9fdfe !important;
 }
 
+.flag-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+
 /* --------- */
 /* Footer */
 /* --------- */
@@ -580,6 +588,15 @@ button:focus {
   box-shadow: 0 4px 4px 5px #DEAB87 !important;
 }
 
+.Experience-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 140px !important;
+  height: 140px !important;
+  color: #BD570F !important;
+  transition: 0.5s !important;
+}
+
 /* --------- */
 /* Research */
 /* --------- */
@@ -623,10 +640,10 @@ button:focus {
 }
 
 .research-icons:hover {
-  color: #BD570F;
   box-shadow: 0 0 5px #BD570F;
   text-shadow: 0 0 2px #BD570F;
 }
+
 
 /* --------- */
 /* Services */
