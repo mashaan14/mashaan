@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.d37c490e.js",
+    "main.js": "/mashaan/static/js/main.827cd63c.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
     "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.b50bf84d17e4071f339c.png",
@@ -27,6 +27,7 @@
     "static/media/brand-icons.woff2": "/mashaan/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
     "static/media/icons.woff": "/mashaan/static/media/icons.425399f81e4ce7cbd967.woff",
     "static/media/RPTree-SpectralNet.png": "/mashaan/static/media/RPTree-SpectralNet.54e934fc83cc6865c483.png",
+    "static/media/Icon_KFUPM.svg": "/mashaan/static/media/Icon_KFUPM.48a8c4e982bd61bcd8c39a9f4b68f8e5.svg",
     "static/media/icons.woff2": "/mashaan/static/media/icons.38c6d8bab26db77d8c80.woff2",
     "static/media/Icon_SPI.svg": "/mashaan/static/media/Icon_SPI.77a872cdb58225479b2481cc4c99da41.svg",
     "static/media/SPI.png": "/mashaan/static/media/SPI.fc890249249414954c48.png",
@@ -43,6 +44,7 @@
     "static/media/Flag_of_Saudi_Arabia.svg": "/mashaan/static/media/Flag_of_Saudi_Arabia.a778e6076273e68979a4d6d98069c904.svg",
     "static/media/outline-icons.woff2": "/mashaan/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/Icon_ARAMCO.svg": "/mashaan/static/media/Icon_ARAMCO.ff99f2b4f82a9bb5cb4a76834d584aa5.svg",
+    "static/media/Icon_sydney_uni.svg": "/mashaan/static/media/Icon_sydney_uni.11021d1d3350e0ad28dcbd5c63fade3d.svg",
     "static/media/Icon_orcid.svg": "/mashaan/static/media/Icon_orcid.65ee167c6292f621cfc3b5a8cbf2a9af.svg",
     "static/media/Icon_arxiv.svg": "/mashaan/static/media/Icon_arxiv.d9aeb235fe3f0aa08589fa01dc696c56.svg",
     "static/media/Flag_of_Australia.svg": "/mashaan/static/media/Flag_of_Australia.de28ab7bef27210da1a96ebe69535bb1.svg",
@@ -50,11 +52,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.d37c490e.js.map": "/mashaan/static/js/main.d37c490e.js.map",
+    "main.827cd63c.js.map": "/mashaan/static/js/main.827cd63c.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.d37c490e.js"
+    "static/js/main.827cd63c.js"
   ]
 }
