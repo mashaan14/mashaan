@@ -5,6 +5,7 @@ import ResearchCards from "./ResearchCards";
 import { SiGooglescholar, SiClarivate } from "react-icons/si";
 import { ReactComponent as Icon_orcid} from "../../Assets/Icon_orcid.svg";
 import { ReactComponent as Icon_scopus} from "../../Assets/Icon_scopus.svg";
+import { ReactComponent as Icon_arxiv} from "../../Assets/Icon_arxiv.svg";
 
 
 function Home() {
