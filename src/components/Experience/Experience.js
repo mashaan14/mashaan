@@ -18,7 +18,7 @@ function Experience() {
       <Experiencecard
               imgPath={Icon_SPI}
               title="Curriculum Development Collaborator"
-              location="Sydney Polytechnic Institute, Sydney, Australia"
+              location="Sydney Polytechnic Institute, Remote"
               description="I was invited to participate in designing a new undergraduate program offered by SPI. My tasks include writing an outline and a planner documents for courses as per the Australian Qualifications Framework (AQF)."
               time="2023 - present"
       />
