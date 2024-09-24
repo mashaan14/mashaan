@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.ba9eb870.js",
+    "main.js": "/mashaan/static/js/main.622cd615.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
-    "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.fbeb46c96d52c730e996.png",
-    "static/media/YouTube.png": "/mashaan/static/media/YouTube.96ba7c3619a40ee364f1.png",
+    "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.b50bf84d17e4071f339c.png",
+    "static/media/YouTube.png": "/mashaan/static/media/YouTube.8aec3d5268790f59d5e0.png",
     "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
     "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
     "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
@@ -43,17 +43,18 @@
     "static/media/Flag_of_Saudi_Arabia.svg": "/mashaan/static/media/Flag_of_Saudi_Arabia.a778e6076273e68979a4d6d98069c904.svg",
     "static/media/outline-icons.woff2": "/mashaan/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "static/media/Icon_ARAMCO.svg": "/mashaan/static/media/Icon_ARAMCO.ff99f2b4f82a9bb5cb4a76834d584aa5.svg",
+    "static/media/Icon_orcid.svg": "/mashaan/static/media/Icon_orcid.65ee167c6292f621cfc3b5a8cbf2a9af.svg",
+    "static/media/Icon_arxiv.svg": "/mashaan/static/media/Icon_arxiv.d9aeb235fe3f0aa08589fa01dc696c56.svg",
     "static/media/Flag_of_Australia.svg": "/mashaan/static/media/Flag_of_Australia.de28ab7bef27210da1a96ebe69535bb1.svg",
-    "static/media/Icon_orcid.svg": "/mashaan/static/media/Icon_orcid.0ec42e34706f460a9894b4b4c494fa09.svg",
     "static/media/Icon_scopus.svg": "/mashaan/static/media/Icon_scopus.2904e64b5ef1bbebf9b72c8ee6cce829.svg",
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.ba9eb870.js.map": "/mashaan/static/js/main.ba9eb870.js.map",
+    "main.622cd615.js.map": "/mashaan/static/js/main.622cd615.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.ba9eb870.js"
+    "static/js/main.622cd615.js"
   ]
 }
