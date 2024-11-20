@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.d29fc65a.js",
+    "main.js": "/mashaan/static/js/main.e1a502df.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
     "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.8b26bd7d88d8f8e113b2.png",
@@ -10,13 +10,13 @@
     "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
     "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
     "static/media/SC.png": "/mashaan/static/media/SC.b9c44d978652882faa4b.png",
-    "static/media/CV.pdf": "/mashaan/static/media/CV.4abfdddf67c9bb677290.pdf",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/mashaan/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/VisionTransformer-MNIST.gif": "/mashaan/static/media/VisionTransformer-MNIST.37e59d126eb252573e10.gif",
     "static/media/SCParameterFree.png": "/mashaan/static/media/SCParameterFree.adea15a08cce7be7d60e.png",
     "static/media/UOH.png": "/mashaan/static/media/UOH.15c614ff34d1ddd26c29.png",
     "static/media/ASCNoisy.png": "/mashaan/static/media/ASCNoisy.c92330d6635f89e17318.png",
+    "static/media/CV.pdf": "/mashaan/static/media/CV.c3d2765757326028366a.pdf",
     "static/media/outline-icons.svg": "/mashaan/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/mashaan/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/mashaan/static/media/icons.c656b8caa454ed19b9a2.ttf",
@@ -52,11 +52,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.d29fc65a.js.map": "/mashaan/static/js/main.d29fc65a.js.map",
+    "main.e1a502df.js.map": "/mashaan/static/js/main.e1a502df.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.d29fc65a.js"
+    "static/js/main.e1a502df.js"
   ]
 }
