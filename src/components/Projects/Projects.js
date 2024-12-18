@@ -46,7 +46,7 @@ function Projects() {
             imgPath={YouTube}
             imgTitle={YouTube}
             title="YouTube channel"
-            description="I create videos explaining machine learning methods. The video starts by reading a paper or a book and ends with a code."
+            description="I create YouTube videos documenting my machine learning experiments. Each video typically begins with a discussion of a relevant research paper or book chapter and concludes with a live coding demonstration. The accompanying code is then shared on GitHub for future reference."
             Button1Text = "YouTube"
             Button1Link = "https://youtube.com/@mashaan14"
             Button2Text = "GitHub"

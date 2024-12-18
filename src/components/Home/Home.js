@@ -48,9 +48,9 @@ function Home() {
           <Row md={8} className="home-about-description">
           <div>
             <p className="home-about-body">
-            I currently work as a machine learning researcher. My research interests lie broadly in graph clustering and deep learning. I also do some artificial intelligence consultations for organizations in Saudi Arabia.
+            I currently work as a machine learning researcher. My research interests are in graph neural networks and vision transformers. Lately, I've been curious about neural radiance fields and 3D reconstruction. I post YouTube videos about my research experiments and also provide AI consulting services to organizations in Saudi Arabia.
             <br /><br />
-            I started my career back in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue my career in academia. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM)</b></a> 👨‍🎓 
+            I began my career in 2010 as a system engineer 👨‍🔧 at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue a graduate degree. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM)</b></a> 👨‍🎓 
             <Icon_KFUPM className="flag-icons"/> <Flag_of_Saudi_Arabia className="flag-icons"/> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> 👨‍🎓 <Icon_sydney_uni className="flag-icons"/> <Flag_of_Australia className="flag-icons"/> in 2021.
             </p>
           </div>

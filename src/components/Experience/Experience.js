@@ -19,7 +19,7 @@ function Experience() {
               imgPath={Icon_SPI}
               title="Curriculum Development Collaborator"
               location="Sydney Polytechnic Institute, Remote"
-              description="I was invited to participate in designing a new undergraduate program offered by SPI. My tasks include writing an outline and a planner documents for courses as per the Australian Qualifications Framework (AQF)."
+              description="I was responsible for developing course outlines and planner documents for a new computer science undergraduate program offered by SPI, ensuring alignment with the Australian Qualifications Framework (AQF)."
               time="2023 - present"
       />
       <br/> 
@@ -27,7 +27,7 @@ function Experience() {
               imgPath={Icon_freelance}
               title="Machine learning researcher"
               location="Freelance, Riyadh, Saudi Arabia"
-              description="Working on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on Graph Convolutional Networks (GCNs) and Unsupervised Domain Adaptation (UDA). I Designed the experiments using python ML libraries (scikit-learn, PyTorch, seaborn, and others)."
+              description="Working on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on graph neural networks. I Designed the experiments using python ML libraries (scikit-learn, PyTorch, seaborn, and others)."
               time="2022 - present"
       />
       <br/>        
@@ -35,7 +35,7 @@ function Experience() {
               imgPath={Icon_UOH}
               title="Assistant professor"
               location="University of Hail, Hail, Saudi Arabia"
-              description="Participated in lecturing, laboratory teaching, and curriculum design for multiple undergrad and grad computer science courses."
+              description="Participated in lecturing, laboratory teaching, and curriculum design for multiple undergraduate and graduate computer science courses."
               time="2021 - 2022"
       />
       <br/>        
@@ -43,7 +43,7 @@ function Experience() {
               imgPath={Icon_SPI}
               title="Curriculum Development Collaborator"
               location="Sydney Polytechnic Institute, Sydney, Australia"
-              description="SPI invited me to participate in curriculum development for a Master of Data Science. I designed lecture slides, assignments, practical sessions, and exams for courses like: (Mathematics for data science) and (Artificial Intelligence and Innovation)."
+              description="I designed and developed course materials, including lecture slides, assignments, practical sessions, and exams, for courses such as (Mathematics for Data Science) and (Artificial Intelligence and Innovation), as part of my curriculum development work for a Master of Data Science program at SPI."
               time="2020 - 2021"
       />
       <br/>        
@@ -59,7 +59,7 @@ function Experience() {
               imgPath={Icon_ARAMCO}
               title="Intern"
               location="Saudi Aramco, Dhahran, Saudi Arabia"
-              description="I completed an internship at Aramco's EXPEC ARC (Advanced Research Center). During that time, I developed a GUI that populates the simulator output, which was large text files, into a database for interactive data access."
+              description="I completed an internship at Aramco's EXPEC ARC (Advanced Research Center). During that time, I developed an interface that populates the simulator output, which was large text files, into a database for interactive data access."
               time="2009 - 2010"
       />
       </Container>
