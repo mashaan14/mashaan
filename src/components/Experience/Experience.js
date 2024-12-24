@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Experiencecard from "./ExperienceCard";
-import freelance from "../../Assets/freelance.png";
-import UOH from "../../Assets/UOH.png";
-import SPI from "../../Assets/SPI.png";
-import ARAMCO from "../../Assets/ARAMCO.png";
-import { ReactComponent as Icon_freelance} from "../../Assets/Icon_freelance.svg";
+import { ReactComponent as Icon_independent} from "../../Assets/Icon_independent.svg";
 import { ReactComponent as Icon_SPI} from "../../Assets/Icon_SPI.svg";
 import { ReactComponent as Icon_SABIC} from "../../Assets/Icon_SABIC.svg";
 import { ReactComponent as Icon_ARAMCO} from "../../Assets/Icon_ARAMCO.svg";
@@ -15,6 +11,14 @@ function Experience() {
   return (
     <Container className="Experience-section">
       <Container>
+        <Experiencecard
+              imgPath={Icon_independent}
+              title="Machine learning researcher"
+              location="Independent Researcher, Riyadh, Saudi Arabia"
+              description="Working on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on graph neural networks. I Designed the experiments using python ML libraries (scikit-learn, PyTorch, seaborn, and others)."
+              time="2023 - present"
+      />
+      <br/> 
       <Experiencecard
               imgPath={Icon_SPI}
               title="Curriculum Development Collaborator"
@@ -22,21 +26,13 @@ function Experience() {
               description="I was responsible for developing course outlines and planner documents for a new computer science undergraduate program offered by SPI, ensuring alignment with the Australian Qualifications Framework (AQF)."
               time="2023 - present"
       />
-      <br/> 
-      <Experiencecard
-              imgPath={Icon_freelance}
-              title="Machine learning researcher"
-              location="Freelance, Riyadh, Saudi Arabia"
-              description="Working on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on graph neural networks. I Designed the experiments using python ML libraries (scikit-learn, PyTorch, seaborn, and others)."
-              time="2022 - present"
-      />
       <br/>        
       <Experiencecard
               imgPath={Icon_UOH}
               title="Assistant professor"
               location="University of Hail, Hail, Saudi Arabia"
               description="Participated in lecturing, laboratory teaching, and curriculum design for multiple undergraduate and graduate computer science courses."
-              time="2021 - 2022"
+              time="2021 - 2023"
       />
       <br/>        
       <Experiencecard
