@@ -12,8 +12,6 @@ import RPTree from "../../Assets/Projects/RPTree.png";
 import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
 import SC from "../../Assets/Projects/SC.png";
 import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
-import YouTube from "../../Assets/Projects/YouTube.png";
-import GNN_mini_batch from "../../Assets/Projects/GNN_mini_batch.png";
 
 /*
 depending on the image you have enter the corresponding "padding-bottom value" in size variable
@@ -43,8 +41,7 @@ function Projects() {
       <Col md={4} className="project-card">
           <ProjectCard
             size = "56.25%"
-            imgPath={YouTube}
-            imgTitle={YouTube}
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_02_28_jax_three_layer_NN.png?raw=true"}
             title="YouTube channel"
             description="I create YouTube videos documenting my machine learning experiments. Each video typically begins with a discussion of a relevant research paper or book chapter and concludes with a live coding demonstration. The accompanying code is then shared on GitHub for future reference."
             Button1Text = "YouTube"
@@ -69,8 +66,7 @@ function Projects() {
         <Col md={4} className="project-card">
           <ProjectCard
             size = "56.25%"
-            imgPath={GNN_mini_batch}
-            imgTitle={GNN_mini_batch}
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_05_27_GNN_sampling.png?raw=true"}
             title="Mini Batches in Graph Neural Network"
             description="Neural nets are trained in mini batches. Mini batching points or images is easy. But mini batching nodes on a graph is not straightforward. In this video, I talked about creating mini batches for Graph Neural Network (GNN) training."
             Button1Text = "YouTube"
