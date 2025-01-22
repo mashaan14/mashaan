@@ -1,6 +1,3 @@
-
-![website](https://github.com/mashaan14/mashaan/assets/61033787/437d4b17-c5fb-4f16-b597-1c70580dc68d)
-
 ## Credit
 This website design was inspired by this [repository](https://github.com/soumyajit4419/Portfolio). Any credit should be directed there.
 
@@ -30,11 +27,3 @@ This website design was inspired by this [repository](https://github.com/soumyaj
   - `git init`
   - `git remote add origin https://github.com/[your username]/[your repo name].git`
   - `npm run deploy`
-
-## Colors
-|&nbsp;|HEX|
-| :--- | :---: |
-| main | `#4B668C` |
-| dark | `#2D3D54` |
-| light | `#EDEFF3` |
-| lighter | `#A5B2C5` | 
