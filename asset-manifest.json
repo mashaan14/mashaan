@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.923d9f7a.js",
+    "main.js": "/mashaan/static/js/main.d6e78bea.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
-    "static/media/GNN_mini_batch.png": "/mashaan/static/media/GNN_mini_batch.8da2dfc8a3bcb5b2c93d.png",
     "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
     "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
     "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
     "static/media/SC.png": "/mashaan/static/media/SC.b9c44d978652882faa4b.png",
-    "static/media/YouTube.png": "/mashaan/static/media/YouTube.a95effa254b894431940.png",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/mashaan/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/VisionTransformer-MNIST.gif": "/mashaan/static/media/VisionTransformer-MNIST.37e59d126eb252573e10.gif",
@@ -48,11 +46,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.923d9f7a.js.map": "/mashaan/static/js/main.923d9f7a.js.map",
+    "main.d6e78bea.js.map": "/mashaan/static/js/main.d6e78bea.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.923d9f7a.js"
+    "static/js/main.d6e78bea.js"
   ]
 }
