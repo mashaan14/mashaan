@@ -5,6 +5,18 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { styled } from '@mui/material/styles';
+
+const StyledCardActions = styled(CardActions)(({ theme }) => ({
+  display: 'flex',
+  flexDirection: 'column', // Stack buttons vertically
+  alignItems: 'flex-start', // Align items to the left
+  justifyContent: 'flex-start',
+}));
+
+const StyledButton = styled(Button)(() => ({
+  width: 'fit-content', // Make buttons fit their content
+}));
 
 export default function ResearchCard(props) {
   return (
@@ -22,32 +34,23 @@ export default function ResearchCard(props) {
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
+      <StyledCardActions sx={{ '& > :not(:first-of-type)': { ml: 0 } }}>
       {props.Button1Text && (
-        <Button sx={{ color: "#BD570F" }}
-          size="small"
-          href={props.Button1Link}
-        >
+        <StyledButton sx={{ color: "#BD570F" }} size="small" href={props.Button1Link}>
           {props.Button1Text}          
-        </Button>
+        </StyledButton>
         )}
         {props.Button2Text && (
-        <Button sx={{ color: "#BD570F" }}
-          size="small"
-          href={props.Button2Link}
-        >
+        <StyledButton sx={{ color: "#BD570F" }} size="small" href={props.Button2Link}>
           {props.Button2Text}          
-        </Button>
+        </StyledButton>
         )}
         {props.Button3Text && (
-        <Button sx={{ color: "#BD570F" }}
-          size="small"
-          href={props.Button3Link}
-        >
+        <StyledButton sx={{ color: "#BD570F" }} size="small" href={props.Button3Link}>
           {props.Button3Text}          
-        </Button>
+        </StyledButton>
         )}
-      </CardActions>
+      </StyledCardActions>
     </Card>
   );
 }
