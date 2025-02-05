@@ -1,19 +1,16 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.15bc3e31.js",
+    "main.js": "/mashaan/static/js/main.361728dc.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.48bb9fe913d6e3a62f37.png",
-    "static/media/UDA.gif": "/mashaan/static/media/UDA.1b19f06cfe0f90d8dc6b.gif",
-    "static/media/SGC.gif": "/mashaan/static/media/SGC.42f8c3d0449a1866b032.gif",
-    "static/media/GCN.png": "/mashaan/static/media/GCN.1d0544e0eecb082b52b6.png",
     "static/media/SC.png": "/mashaan/static/media/SC.b9c44d978652882faa4b.png",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/mashaan/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/VisionTransformer-MNIST.gif": "/mashaan/static/media/VisionTransformer-MNIST.37e59d126eb252573e10.gif",
     "static/media/SCParameterFree.png": "/mashaan/static/media/SCParameterFree.adea15a08cce7be7d60e.png",
+    "static/media/CV.pdf": "/mashaan/static/media/CV.85b7723bae7bd4bd7cc0.pdf",
     "static/media/ASCNoisy.png": "/mashaan/static/media/ASCNoisy.c92330d6635f89e17318.png",
-    "static/media/CV.pdf": "/mashaan/static/media/CV.fe96bd34205d4c3fcfbf.pdf",
     "static/media/outline-icons.svg": "/mashaan/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/mashaan/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/mashaan/static/media/icons.c656b8caa454ed19b9a2.ttf",
@@ -46,11 +43,11 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.15bc3e31.js.map": "/mashaan/static/js/main.15bc3e31.js.map",
+    "main.361728dc.js.map": "/mashaan/static/js/main.361728dc.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.15bc3e31.js"
+    "static/js/main.361728dc.js"
   ]
 }
