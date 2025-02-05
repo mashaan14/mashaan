@@ -1,12 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Grid from '@mui/material/Grid';
 import ProjectCard from "./ProjectCards";
 import Github from "./Github";
 import VisionTransformer from "../../Assets/Projects/VisionTransformer-MNIST.gif";
-import UDA from "../../Assets/Projects/UDA.gif";
-import SGC from "../../Assets/Projects/SGC.gif";
-import GCN from "../../Assets/Projects/GCN.png";
 import RPTreeSpectralNet from "../../Assets/Projects/RPTree-SpectralNet.png";
 import RPTree from "../../Assets/Projects/RPTree.png";
 import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
@@ -45,7 +41,7 @@ function Projects() {
             title="Neural Radiance Fields (NeRF) Experiments"
             description="I performed 3D reconstruction experiments using recent NeRF advancements such as Mip-NeRF 360. Compute resources for these experiments were provided by Google Cloud TPUs and Lightning AI GPUs."
             Button1Text = "VGG-SfM and Mip-NeRF 360"
-            Button1Link = "https://youtu.be/5aQpIiNohDA"
+            Button1Link = "https://youtu.be/6RNE155c7iA"
             Button2Text = "Mip-NeRF 360 on TPUs"
             Button2Link = "https://youtu.be/5aQpIiNohDA"
             Button3Text = "Nerfstudio on Lightning AI"
