@@ -27,6 +27,10 @@ const steps = [
     description: `Pattern Recognition was established 50 years ago. It is one of the top venues for machine learning research. I started reviewing for PR in 2021.`,
   },
   {
+    label: 'Neural Networks',
+    description: `Neural Networks journal, established in 1988, is a prominent journal that has significantly contributed to the development and application of neural computation in AI and related fields. I started reviewing for Neural Networks journal in 2025.`,
+  },
+  {
     label: 'Neurocomputing',
     description: `Neurocomputing is a peer-reviewed scientific journal covering research on artificial intelligence, machine learning, and neural computation. It was established in 1989 and is published by Elsevier. I started reviewing for Neurocomputing in 2024.`,
   },

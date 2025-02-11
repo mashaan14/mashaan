@@ -57,8 +57,8 @@ function Projects() {
             description="I implemented a Vision Transformer (ViT) model, which was based on the paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale”. In this video, the focus is on (1) building a PyTorch Vision Transformer (ViT) model, (2) training the model on the MNIST dataset imported from torchvision, and (3) feeding test samples to the transformer and visualizing its responses."
             Button1Text = "YouTube Tutorial"
             Button1Link = "https://youtu.be/y1ZmMcMYjkY"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/VisionTransformer-MNIST/tree/main"
+            Button2Text = "Blog Post"
+            Button2Link = "https://mashaan14.github.io/YouTube-channel/vision_transformers/2023_11_29_VisionTransformer_MNIST"
           />
         </Col>   
         <Col md={4} className="project-card">
