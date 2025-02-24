@@ -7,83 +7,39 @@ import { ReactComponent as Icon_orcid} from "../../Assets/Icon_orcid.svg";
 import { ReactComponent as Icon_scopus} from "../../Assets/Icon_scopus.svg";
 import { ReactComponent as Icon_arxiv} from "../../Assets/Icon_arxiv.svg";
 
+const links = [  // Data structure for cleaner code
+  { href: "https://orcid.org/0000-0002-7864-0011", text: "ORCID" },
+  { href: "https://scholar.google.com/citations?user=V3YkUVgAAAAJ&hl=en", text: "Scholar" },
+  { href: "https://www.scopus.com/authid/detail.uri?authorId=55827556900", text: "Scopus" },
+  { href: "https://www.webofscience.com/wos/author/rid/AAQ-7726-2021", text: "WoS" },
+];
 
 function Home() {
   return (
     <section>
       <Container fluid>
         <Container className="research-content">
-        <Grid container spacing={2}
-              alignItems="center"
-              justifyContent="center">
-          <Grid item xs={2}>
-            <p>
-              <a
-                href="https://orcid.org/0000-0002-7864-0011"
-                className="research-icons"
-                target="_blank" 
-                rel="noopener noreferrer"                  
-              >
-                <Icon_orcid className="research-icons"/>
-              </a>
-            </p>
-          </Grid>
-          <Grid item xs={2}>
-            <p>
-              <a
-                href="https://scholar.google.com/citations?user=V3YkUVgAAAAJ&hl=en"
-                className="research-icons"
-                target="_blank" 
-                rel="noopener noreferrer"                  
-              >
-                <SiGooglescholar className="research-icons"/>
-              </a>
-            </p>
-          </Grid>
-          <Grid item xs={2}>
-            <p>
-              <a
-                href="https://www.scopus.com/authid/detail.uri?authorId=55827556900"
-                className="research-icons"
-                target="_blank" 
-                rel="noopener noreferrer"                  
-              >
-                <Icon_scopus className="research-icons"/>
-              </a>
-            </p>
-          </Grid>
-          <Grid item xs={2}>
-            <p>
-              <a
-                href="https://www.webofscience.com/wos/author/rid/AAQ-7726-2021"
-                className="research-icons"
-                target="_blank" 
-                rel="noopener noreferrer"                  
-              >
-                <SiClarivate className="research-icons"/>
-              </a>
-            </p>
-          </Grid>                              
+
+        <Grid container spacing={1} alignItems="center" justifyContent="center" wrap="nowrap" sx={{ flexDirection: 'row' }}>
+          {links.map((link, index) => (
+            <React.Fragment key={link.text}>
+              <Grid item xs={2} sm={3} md={2} style={{ textAlign: 'center', minWidth: 0 }}>
+                <h2 style={{ margin: 0, fontSize: '1.2rem' }}>
+                  <a href={link.href}>{link.text}</a>
+                </h2>
+              </Grid>
+              {index < links.length - 1 && (
+                <Grid item xs={1} sm={1} md={1} style={{ textAlign: 'center', padding: '0 2px', minWidth: 0 }}>
+                  <span
+                    style={{ fontSize: '1rem', color: '#888' }}
+                  > 
+                  |
+                  </span>
+                </Grid>
+              )}
+            </React.Fragment>
+          ))}
         </Grid>
-
-        <br></br> <br></br>
-
-        <h1 className="project-heading">
-          <strong>Preprints</strong>
-        </h1>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ResearchCards 
-              author = "M. Alshammari, J. Stavrakakis, A. F. Ahmed and M. Takatsuka"
-              title = "Graph Construction using Principal Axis Trees for Simple Graph Convolution"
-              journal = "arXiv:2302.12000, 2023."
-              Button1Text = "arXiv preprint"
-              Button1Link = "https://doi.org/10.48550/arXiv.2302.12000"
-              Button2Text = "GitHub"
-              Button2Link = "https://github.com/mashaan14/PAtree-SGC"
-            />
-          </Col>
-        </Row>
 
         <br></br> <br></br>
 

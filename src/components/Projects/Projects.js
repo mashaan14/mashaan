@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Github from "./Github";
 import VisionTransformer from "../../Assets/Projects/VisionTransformer-MNIST.gif";
 import RPTreeSpectralNet from "../../Assets/Projects/RPTree-SpectralNet.png";
 import RPTree from "../../Assets/Projects/RPTree.png";
@@ -24,10 +23,6 @@ function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-
-      <Github />
-
-      <br></br> <br></br>
       
       <h1 className="project-heading">
         <strong>Projects</strong>
