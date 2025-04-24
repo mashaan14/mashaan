@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import VisionTransformer from "../../Assets/Projects/VisionTransformer-MNIST.gif";
-import RPTreeSpectralNet from "../../Assets/Projects/RPTree-SpectralNet.png";
-import RPTree from "../../Assets/Projects/RPTree.png";
-import SCParameterFree from "../../Assets/Projects/SCParameterFree.png";
-import SC from "../../Assets/Projects/SC.png";
-import ASCNoisy from "../../Assets/Projects/ASCNoisy.png";
+
 
 /*
 depending on the image you have enter the corresponding "padding-bottom value" in size variable
@@ -124,69 +120,56 @@ function Projects() {
         </Col>        
         <Col md={4} className="project-card">
           <ProjectCard
-            size = "49.25%"
-            imgPath={RPTreeSpectralNet}
-            imgTitle={RPTreeSpectralNet}
-            title="Random projection tree similarities for graph clustering"
-            description="Similarities based on rpTrees are better than knn similarities. They don't restrict points to have a fixed number of neighbors, which leads to better connectivity and better clustering."
-            Button1Text = "Open access paper"
-            Button1Link = "https://doi.org/10.1016/j.array.2022.100274"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/RPTree-SpectralNet"            
+            size = "56.25%"
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_04_07_LightGCN.png?raw=true"}
+            imgTitle={"Recommender Systems"}
+            title="Recommender Systems"
+            description="Videos exploring how to use graph neural networks to build recommender systems."
+            Button1Text = "Exploring LightGCN"
+            Button1Link = "https://youtu.be/hVdlUyD9fic"
+            Button2Text = "Graph Contrastive Learning"
+            Button2Link = "https://youtu.be/ENVArKM2A3I"
           />
         </Col>
         <Col md={4} className="project-card">
           <ProjectCard
-            size = "49.25%"
-            imgPath={RPTree}
-            imgTitle={RPTree}
-            title="Dispersion of points in random projection trees"
-            description="Random projection trees are used to perform k-nearest neighbor. Maximizing the dispersion of points will ensure that true neighbors will not be separated."
-            Button1Text = "Open access paper"
-            Button1Link = "https://doi.org/10.1109/ACCESS.2022.3195488"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/RPTree"            
+            size = "56.25%"
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_04_14_jax_speed_test.png?raw=true"}
+            imgTitle={"JAX Performance"}
+            title="JAX Performance"
+            description="Videos about how to get free TPUs through Google's TPU Research Cloud and JAX JIT compilation (Python to JAXPR) for maximum speed."
+            Button1Text = "JAX JIT Compilation Explained"
+            Button1Link = "https://youtu.be/1SQFVYVSuyE"
+            Button2Text = "TPU Research Cloud"
+            Button2Link = "https://youtu.be/PwYHoiB4Fag"
           />
         </Col>
         <Col md={4} className="project-card">
           <ProjectCard
-            size = "49.25%"
-            imgPath={SCParameterFree}
-            imgTitle={SCParameterFree}
-            title="A parameter-free graph reduction for efficient spectral clustering"
-            description="Reducing the graph edges without manually tuned parameters to run spectral clustering efficiently."
-            Button1Text = "Open access paper"
-            Button1Link = "https://doi.org/10.1016/j.array.2022.100192"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/SC-parameter-free"
+            size = "56.25%"
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_01_15_spectral_clustering.png?raw=true"}
+            imgTitle={"Spectral Clustering"}
+            title="Spectral Clustering"
+            description="Code walkthroughs for spectral clustering and sparse subspace clustering."
+            Button1Text = "A Step-by-Step Guide to Spectral Clustering"
+            Button1Link = "https://youtu.be/k7M1TMYac-Y"
+            Button2Text = "Exploring Sparse Subspace Clustering"
+            Button2Link = "https://youtu.be/xUmO_S7lLG8"
           />
         </Col>
         <Col md={4} className="project-card">
           <ProjectCard
-            size = "49.25%"
-            imgPath={SC}
-            imgTitle={SC}
-            title="Refining a k-nearest neighbor graph for a computationally efficient spectral clustering"
-            description="The k-nearest neighbor graph restricts all vertices to have the same number of edges, which could affect the quality of clustering. We developed a refined graph where unnecessary edges are removed."
-            Button1Text = "arXiv preprint"
-            Button1Link = "https://doi.org/10.48550/arXiv.2302.11296"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/Spectral-Clustering"
+            size = "56.25%"
+            imgPath={"https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_03_03_TAPIR.png?raw=true"}
+            imgTitle={"Detection and Tracking"}
+            title="Detection and Tracking"
+            description="Computer vision experiments exploring object detection and point tracking."
+            Button1Text = "Hands-On with TAPIR"
+            Button1Link = "https://youtu.be/U7jH_BiwVOU"
+            Button2Text = "Experimenting Object Detection with DETR"
+            Button2Link = "https://youtu.be/Z3fXiV4Cmz4"
           />
         </Col>
-        <Col md={4} className="project-card">
-          <ProjectCard
-            size = "30.25%"
-            imgPath={ASCNoisy}
-            imgTitle={ASCNoisy}
-            title="Approximate spectral clustering density-based similarity for noisy datasets"
-            description="Approximation graphs are usually sensitive to noise. We introduced a graph filtering scheme to remove edges from noisy points."
-            Button1Text = "arXiv preprint"
-            Button1Link = "https://doi.org/10.48550/arXiv.2302.11298"
-            Button2Text = "GitHub Repository"
-            Button2Link = "https://github.com/mashaan14/ASC-noisy"
-          />
-        </Col>                
       </Row>        
       </Container>
     </Container>
