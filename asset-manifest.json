@@ -1,27 +1,22 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.cb3a2908.css",
-    "main.js": "/mashaan/static/js/main.e330db1a.js",
+    "main.js": "/mashaan/static/js/main.8fe558b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.777d834f67dd929608b0.png",
     "static/media/CV.pdf": "/mashaan/static/media/CV.eff5790b9fbb23280bc7.pdf",
-    "static/media/SC.png": "/mashaan/static/media/SC.b9c44d978652882faa4b.png",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/mashaan/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/VisionTransformer-MNIST.gif": "/mashaan/static/media/VisionTransformer-MNIST.37e59d126eb252573e10.gif",
-    "static/media/SCParameterFree.png": "/mashaan/static/media/SCParameterFree.adea15a08cce7be7d60e.png",
-    "static/media/ASCNoisy.png": "/mashaan/static/media/ASCNoisy.c92330d6635f89e17318.png",
     "static/media/outline-icons.svg": "/mashaan/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/mashaan/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/mashaan/static/media/icons.c656b8caa454ed19b9a2.ttf",
-    "static/media/RPTree.png": "/mashaan/static/media/RPTree.cfb1c9381a7b39685c21.png",
     "static/media/brand-icons.eot": "/mashaan/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/mashaan/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
     "static/media/Icon_UOH.svg": "/mashaan/static/media/Icon_UOH.eee2a39deff05605697e0ab5e760a66e.svg",
     "static/media/brand-icons.woff": "/mashaan/static/media/brand-icons.cac87dc00c87a5d74711.woff",
     "static/media/brand-icons.woff2": "/mashaan/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
     "static/media/icons.woff": "/mashaan/static/media/icons.425399f81e4ce7cbd967.woff",
-    "static/media/RPTree-SpectralNet.png": "/mashaan/static/media/RPTree-SpectralNet.54e934fc83cc6865c483.png",
     "static/media/Icon_KFUPM.svg": "/mashaan/static/media/Icon_KFUPM.48a8c4e982bd61bcd8c39a9f4b68f8e5.svg",
     "static/media/icons.woff2": "/mashaan/static/media/icons.38c6d8bab26db77d8c80.woff2",
     "static/media/Icon_SPI.svg": "/mashaan/static/media/Icon_SPI.77a872cdb58225479b2481cc4c99da41.svg",
@@ -43,11 +38,11 @@
     "static/media/Icon_scopus.svg": "/mashaan/static/media/Icon_scopus.2904e64b5ef1bbebf9b72c8ee6cce829.svg",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "main.cb3a2908.css.map": "/mashaan/static/css/main.cb3a2908.css.map",
-    "main.e330db1a.js.map": "/mashaan/static/js/main.e330db1a.js.map",
+    "main.8fe558b4.js.map": "/mashaan/static/js/main.8fe558b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb3a2908.css",
-    "static/js/main.e330db1a.js"
+    "static/js/main.8fe558b4.js"
   ]
 }
