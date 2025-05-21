@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.b8fdbd3a.css",
+    "main.css": "/mashaan/static/css/main.822d0d6c.css",
     "main.js": "/mashaan/static/js/main.f2d3c7a1.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.777d834f67dd929608b0.png",
@@ -32,12 +32,12 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "static/media/Icon-independent.svg": "/mashaan/static/media/Icon-independent.b0e5723556eb34fd139aed8a279d2b53.svg",
-    "main.b8fdbd3a.css.map": "/mashaan/static/css/main.b8fdbd3a.css.map",
+    "main.822d0d6c.css.map": "/mashaan/static/css/main.822d0d6c.css.map",
     "main.f2d3c7a1.js.map": "/mashaan/static/js/main.f2d3c7a1.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8fdbd3a.css",
+    "static/css/main.822d0d6c.css",
     "static/js/main.f2d3c7a1.js"
   ]
 }
