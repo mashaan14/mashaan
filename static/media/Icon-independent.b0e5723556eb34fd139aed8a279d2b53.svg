@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 250"> <text
+    x="350"
+    y="80"  text-anchor="middle"
+    font-family="Futura, sans-serif"
+    font-size="100" fill="currentColor"
+  >
+    <tspan x="350" dy="0">Independent</tspan>
+    <tspan x="350" dy="110">Researcher</tspan> </text>
+</svg>
