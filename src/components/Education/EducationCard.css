@@ -1,0 +1,57 @@
+:root {
+  --imp-text-color: #0d0d0d;
+  --light-bg-color: #f2f2f2;
+  --accent-color: #3747F2;
+  --highlight-color: #5C8CFF;
+}
+
+.education-card {
+  border-left: 4px solid var(--accent-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+}
+
+.degree {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.institution {
+  margin: 0.25rem 0;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.time-location {
+  color: var(--imp-text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.description {
+  color: var(--imp-text-color);
+  font-size: 0.95rem;
+}
+
+.education-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--accent-color);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    border-left: transparent;
+    border-bottom: 4px solid var(--accent-color);
+  }
+}

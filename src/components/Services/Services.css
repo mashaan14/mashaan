@@ -1,0 +1,43 @@
+:root {
+  --imp-text-color: #0d0d0d;
+  --light-bg-color: #f2f2f2;
+  --accent-color: #3747F2;
+  --highlight-color: #5C8CFF;
+}
+
+.services-section {
+  padding: 6rem 1rem; /* Increased from 2rem to 6rem for top/bottom */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem; /* Added to separate from nav */
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem; /* Added to separate from footer */
+}
+
+@media (max-width: 600px) {
+  .services-section {
+    padding: 3rem 1rem; /* Reduced for mobile */
+  }
+
+  .section-title {
+    font-size: 1.5rem; /* Smaller title for mobile */
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .services-grid {
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

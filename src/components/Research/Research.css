@@ -1,0 +1,48 @@
+:root {
+  --imp-text-color: #0d0d0d;
+  --light-bg-color: #f2f2f2;
+  --accent-color: #3747F2;
+  --highlight-color: #5C8CFF;
+}
+
+.research-page {
+  padding: 2rem;
+}
+
+.research-links-top {
+    padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.research-links-top a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;              
+  margin: 0 auto;              
+  max-width: 1800px;           
+  box-sizing: border-box;     
+}
+
+@media (min-width: 768px) {
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .research-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

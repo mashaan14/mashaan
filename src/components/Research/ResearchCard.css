@@ -1,0 +1,58 @@
+:root {
+  --imp-text-color: #0d0d0d;
+  --light-bg-color: #f2f2f2;
+  --accent-color: #3747F2;
+  --highlight-color: #5C8CFF;
+}
+
+.research-card {
+  width: 100%;
+  margin: 0 auto; 
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px var(--highlight-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.research-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 6px 16px var(--highlight-color);
+}
+
+.research-author,
+.research-title,
+.research-journal {
+  margin-bottom: 0.5rem;
+  text-align: left;
+  color: var(--imp-text-color);
+}
+
+.research-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--accent-color);
+}
+
+.research-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.research-button {
+  color: var(--light-bg-color);
+  background: var(--accent-color);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.research-button:hover {
+  color: var(--light-bg-color);
+  box-shadow: 0 0 10px var(--highlight-color);
+  text-shadow: none;
+}

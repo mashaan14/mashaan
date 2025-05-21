@@ -31,6 +31,7 @@
     "react-tsparticles": "^1.42.2",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
+    "swiper": "^11.2.7",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
