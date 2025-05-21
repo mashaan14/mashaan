@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.8d9d87df.css",
-    "main.js": "/mashaan/static/js/main.f2d3c7a1.js",
+    "main.css": "/mashaan/static/css/main.c8f00ba7.css",
+    "main.js": "/mashaan/static/js/main.8c863715.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/avatar.png": "/mashaan/static/media/avatar.777d834f67dd929608b0.png",
     "static/media/CV.pdf": "/mashaan/static/media/CV.08b9808794223b07561c.pdf",
@@ -32,12 +32,12 @@
     "index.html": "/mashaan/index.html",
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "static/media/Icon-independent.svg": "/mashaan/static/media/Icon-independent.b0e5723556eb34fd139aed8a279d2b53.svg",
-    "main.8d9d87df.css.map": "/mashaan/static/css/main.8d9d87df.css.map",
-    "main.f2d3c7a1.js.map": "/mashaan/static/js/main.f2d3c7a1.js.map",
+    "main.c8f00ba7.css.map": "/mashaan/static/css/main.c8f00ba7.css.map",
+    "main.8c863715.js.map": "/mashaan/static/js/main.8c863715.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d9d87df.css",
-    "static/js/main.f2d3c7a1.js"
+    "static/css/main.c8f00ba7.css",
+    "static/js/main.8c863715.js"
   ]
 }
