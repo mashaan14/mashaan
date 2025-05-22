@@ -199,48 +199,7 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
-.wave {
-  animation-name: wave-animation;
-  animation-duration: 2.1s;
-  animation-iteration-count: infinite;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
 
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  }
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-#tsparticles {
-  position: fixed ;
-  background-repeat: no-repeat ;
-  background-size: cover ;
-  width: 100%;
-  height: 100%;
-}
 
 .home-header {
   padding-top: 80px ;
@@ -259,6 +218,8 @@ button:focus {
   padding: 9rem 0 2rem ;
   color: var(--imp-text-color);
   text-align: left;
+  padding-bottom: 100px ;
+  padding-top: 100px ;
 }
 
 .heading {
@@ -267,7 +228,7 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.2em ;
+  font-size: 1.8em ;
   padding-left: 45px ;
 }
 
@@ -315,6 +276,9 @@ button:focus {
     padding-top: 2em ;
     padding-bottom: 2em ;
   }
+.home-content {
+  padding-top: 10px ;
+}
 }
 
 .home-about-section {
@@ -463,105 +427,6 @@ button:focus {
   color: var(--accent-color) ;
 }
 
-/* --------- */
-/* Projects */
-/* --------- */
-.project-section {
-  position: relative ;
-  padding-top: 150px ;
-  padding-bottom: 30px ;
-  background-color: var(--light-bg-color) ;
-}
-
-.project-card {
-  padding-top: 50px ;
-  padding-bottom: 50px ;
-  padding-left: 25px ;
-  padding-right: 25px ;
-  height: auto ;
-}
-
-.project-card-view {
-  color: var(--imp-text-color) ;
-  background-color: transparent ;
-  opacity: 1 ;
-  transition: all 0.5s ease 0s ;
-  height: 100% ;
-}
-
-.project-card-view:hover {
-  transform: scale(1.02) ;
-  overflow: hidden ;
-  box-shadow: 0 4px 4px 5px var(--accent-color) ;
-}
-
-.blog-card {
-  padding-top: 50px ;
-  padding-bottom: 50px ;
-  padding-left: 25px ;
-  padding-right: 25px ;
-  height: auto ;
-}
-
-.blog-card-view {
-  background-color: transparent ;
-  box-shadow: 0 3px 3px 2px var(--accent-color) ;
-  color: var(--imp-text-color) ;
-  transition: all 0.5s ease 0s ;
-  height: 100% ;
-}
-
-.blog-link {
-  color: var(--imp-text-color) ;
-  text-decoration: none ;
-}
-
-.blog-link:hover {
-  cursor: pointer ;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) ;
-  overflow: hidden ;
-  box-shadow: 0 3px 3px 5px var(--accent-color) ;
-}
-
-.card-img-top {
-  padding: 20px ;
-  opacity: 0.8 ;
-  border-radius: 10px ;
-}
-
-.blog-img {
-  padding: 0px ;
-  opacity: 0.8 ;
-  border-radius: 0px ;
-}
-
-.btn-primary {
-  color: var(--light-bg-color) ;
-  background-color: var(--imp-text-color) ;
-  border-color: var(--imp-text-color) ;
-}
-
-.btn-primary:hover {
-  color: var(--light-bg-color) ;
-  background-color: var(--highlight-color) ;
-  border-color: var(--highlight-color) ;
-}
-
-.btn:focus {
-  outline: none ;
-  box-shadow: none ;
-}
-
-.project-heading {
-  color: var(--imp-text-color) ;
-  font-size: 2.3em ;
-  font-weight: 500 ;
-  padding-top: 10px ;
-  text-align: center;
-}
 
 /* --------- */
 /* Resume */

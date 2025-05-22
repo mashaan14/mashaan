@@ -6,16 +6,16 @@
 }
 
 .services-section {
-  padding: 6rem 1rem; /* Increased from 2rem to 6rem for top/bottom */
-  max-width: 1200px;
+  padding-bottom: 100px ;
+  padding-top: 100px ;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .section-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  margin-top: 1rem; /* Added to separate from nav */
 }
 
 .services-grid {
@@ -27,11 +27,13 @@
 
 @media (max-width: 600px) {
   .services-section {
-    padding: 3rem 1rem; /* Reduced for mobile */
+      padding-bottom: 100px ;
+      padding-top: 100px ;
+      max-width: 300px;
   }
 
   .section-title {
-    font-size: 1.5rem; /* Smaller title for mobile */
+    font-size: 1.5rem;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
   }

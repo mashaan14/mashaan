@@ -104,11 +104,16 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-            <Nav.Link as={Link} to="https://mashaan14.github.io/YouTube-channel" onClick={() => updateExpanded(false)}>
-              <Icon name="edit_square" /> Blog
-            </Nav.Link>
-            </Nav.Item>            
-
+              <Nav.Link
+                href="https://mashaan14.github.io/YouTube-channel"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
+                <Icon name="edit_square" /> Blog
+              </Nav.Link>
+            </Nav.Item>
+          
             <Nav.Item>
             <Nav.Link as={Link} to="/Resume" onClick={() => updateExpanded(false)}>
               <Icon name="description" /> Resume

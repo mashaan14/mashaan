@@ -14,8 +14,8 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <p><small><small>The initial design was inspired by this <a href="https://github.com/soumyajit4419/Portfolio">repository</a>.</small></small></p>
-        </Col>
+          <p></p>
+        </Col>        
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
@@ -69,6 +69,9 @@ function Footer() {
               </a>
             </li>
           </ul>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <p><small><small>The initial design was inspired by this <a href="https://github.com/soumyajit4419/Portfolio">repository</a>.</small></small></p>
         </Col>
       </Row>
     </Container>

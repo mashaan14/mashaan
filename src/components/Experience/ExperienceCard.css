@@ -5,14 +5,6 @@
   --highlight-color: #5C8CFF;
 }
 
-.experience-section {
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
-  color: var(--accent-color);
-}
-
 .experience-card {
   display: flex;
   flex-direction: row;
@@ -59,6 +51,7 @@
 .experience-time {
   font-size: 1.2rem;
   color: var(--accent-color);
+  padding-bottom: 10px;
 }
 
 .experience-location {
@@ -73,6 +66,7 @@
   font-size: 0.95rem;
   color: var(--imp-text-color);
   text-align: left;
+  padding-top: 10px;
 }
 
 /* Responsive */

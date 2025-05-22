@@ -1,5 +1,6 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
+import './Experience.css';
 // Import the SVG images
 import IconIndependent from './icons/Icon-independent.svg';
 import { ReactComponent as IndependentIcon } from './icons/Icon-independent.svg';
