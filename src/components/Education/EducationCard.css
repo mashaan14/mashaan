@@ -19,6 +19,8 @@
 }
 
 .degree {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
   margin: 0;
   font-size: 1.25rem;
   font-weight: 600;
@@ -42,6 +44,8 @@
 }
 
 .education-link {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
   display: inline-block;
   margin-top: 0.75rem;
   color: var(--accent-color);

@@ -30,6 +30,8 @@
 }
 
 .research-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
   font-weight: bold;
   font-size: 1.2rem;
   color: var(--accent-color);

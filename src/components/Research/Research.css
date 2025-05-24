@@ -10,7 +10,9 @@
 }
 
 .research-links-top {
-    padding-top: 60px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
+  padding-top: 60px;
   display: flex;
   justify-content: center;
   gap: 2rem;

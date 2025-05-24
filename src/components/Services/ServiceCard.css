@@ -24,6 +24,8 @@
 }
 
 .service-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -41,6 +43,8 @@
 }
 
 .slide-subtitle {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;    
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 0.5rem;

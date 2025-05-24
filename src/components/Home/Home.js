@@ -21,8 +21,7 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Mashaan Alshammari</strong>
+                I'm Mashaan Alshammari
                 <br></br>
                 <br></br>
                 <strong className="main-name-Arabic"> مشعان عواد الشمري</strong>
@@ -54,7 +53,7 @@ function Home() {
         </Row>          
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1 className="home-about-social-text">FIND ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
