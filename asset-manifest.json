@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.fd49b123.css",
-    "main.js": "/mashaan/static/js/main.536e27fa.js",
+    "main.js": "/mashaan/static/js/main.003b6da7.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV.pdf": "/mashaan/static/media/CV.3dc883f662b63a780586.pdf",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -33,11 +33,11 @@
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "static/media/Icon-independent.svg": "/mashaan/static/media/Icon-independent.b0e5723556eb34fd139aed8a279d2b53.svg",
     "main.fd49b123.css.map": "/mashaan/static/css/main.fd49b123.css.map",
-    "main.536e27fa.js.map": "/mashaan/static/js/main.536e27fa.js.map",
+    "main.003b6da7.js.map": "/mashaan/static/js/main.003b6da7.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd49b123.css",
-    "static/js/main.536e27fa.js"
+    "static/js/main.003b6da7.js"
   ]
 }
