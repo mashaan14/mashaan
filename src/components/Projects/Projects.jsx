@@ -16,16 +16,26 @@ const projectData = [
   {
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2023-11-29-VisionTransformer-MNIST.avif?raw=true",
     title: "Visualizing Attention in a Vision Transformer on MNIST",
-    description: "I implemented a Vision Transformer (ViT) model, which was based on the paper “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale”. In this video, the focus is on (1) building a PyTorch Vision Transformer (ViT) model, (2) training the model on the MNIST dataset imported from torchvision, and (3) feeding test samples to the transformer and visualizing its responses.",
+    description: "I built a Vision Transformer (ViT) model based on the “An Image is Worth 16x16 Words” paper. In this video, I’ll walk through building it in PyTorch, training it on MNIST, and testing it with some sample images to see how it responds.",
     links: [
       { label: "YouTube Tutorial", href: "https://youtu.be/y1ZmMcMYjkY" },
       { label: "Blog Post", href: "https://mashaan14.github.io/YouTube-channel/vision_transformers/2023_11_29_VisionTransformer_MNIST" }
     ]
   },
   {
+    image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_05_12_DINOv2.avif?raw=true",
+    title: "Self-Supervised Learning",
+    description: "Videos exploring well-known SSL methods such as DINOv2 and I-JEPA.",
+    links: [
+      { label: "Inside DINOv2: Architecture Analysis", href: "https://youtu.be/j2_42Yx_1_w" },
+      { label: "I-JEPA Explained", href: "https://youtu.be/Cw8vKl-jD44" },
+      { label: "Self-Supervised Learning Review", href: "https://youtu.be/7NE0NH-PfkA" }
+    ]
+  },  
+  {
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_05_27_GNN_sampling.avif?raw=true",
     title: "GNN Training with Mini-Batches",
-    description: "Neural nets are trained using mini-batches. Creating mini-batches of points or images is easy. But mini-batching nodes on a graph is not straightforward, because graph data is interconnected. In this tutorial series, I covered techniques for creating mini-batches for Graph Neural Network (GNN) training. I also implemented well-known samplers such as neighbor sampling and Cluster-GCN in JAX.",
+    description: "In this tutorial series, I covered techniques for creating mini-batches for Graph Neural Network (GNN) training. I also implemented well-known samplers such as neighbor sampling and Cluster-GCN in JAX.",
     links: [
       { label: "Sampling Tutorial", href: "https://youtu.be/y0poBC8xN1k" },
       { label: "Neighbor Sampler in JAX", href: "https://youtu.be/YQwUlmUkJuI" },
