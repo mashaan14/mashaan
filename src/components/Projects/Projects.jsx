@@ -4,6 +4,16 @@ import "./Projects.css";
 
 const projectData = [
   {
+    image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_07_14_jax_device_mesh.avif?raw=true",
+    title: "JAX Performance Tips",
+    description: "Videos about JAX parallelism and how to get free TPUs through Google's TPU Research Cloud.",
+    links: [
+      { label: "Parallelism using JAX Device Mesh", href: "https://youtu.be/6WK7R1HBPOc" },
+      { label: "TPU Research Cloud", href: "https://youtu.be/PwYHoiB4Fag" },
+      { label: "JAX JIT Compilation Explained", href: "https://youtu.be/1SQFVYVSuyE" }
+    ]
+  },  
+  {
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_02_03_your_own_NeRF.avif?raw=true",
     title: "Neural Radiance Fields (NeRF) Experiments",
     description: "I performed 3D reconstruction experiments using recent NeRF advancements such as Mip-NeRF 360. Compute resources for these experiments were provided by Google Cloud TPUs and Lightning AI GPUs.",
@@ -87,15 +97,6 @@ const projectData = [
     links: [
       { label: "Exploring LightGCN", href: "https://youtu.be/hVdlUyD9fic" },
       { label: "Graph Contrastive Learning", href: "https://youtu.be/ENVArKM2A3I" }
-    ]
-  },
-  {
-    image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_04_14_jax_speed_test.avif?raw=true",
-    title: "JAX Performance",
-    description: "Videos about how to get free TPUs through Google's TPU Research Cloud and JAX JIT compilation (Python to JAXPR) for maximum speed.",
-    links: [
-      { label: "JAX JIT Compilation Explained", href: "https://youtu.be/1SQFVYVSuyE" },
-      { label: "TPU Research Cloud", href: "https://youtu.be/PwYHoiB4Fag" }
     ]
   },
   {
