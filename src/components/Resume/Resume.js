@@ -42,6 +42,7 @@ function Resume() {
           <Document file={pdf} className="d-flex justify-content-center" onLoadSuccess={onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
+          {/*
           <div>
             <p>
               Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
@@ -60,7 +61,8 @@ function Resume() {
             >
               Next
             </button>
-          </div>          
+          </div>
+          */}          
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
