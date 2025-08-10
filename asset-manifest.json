@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/mashaan/static/css/main.fd49b123.css",
-    "main.js": "/mashaan/static/js/main.1da220f2.js",
+    "main.js": "/mashaan/static/js/main.c2b80055.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/brand-icons.svg": "/mashaan/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/mashaan/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/avatar.avif": "/mashaan/static/media/avatar.7009430d23b6acbf1382.avif",
-    "static/media/CV.pdf": "/mashaan/static/media/CV.5add8de711a2f4ae377f.pdf",
+    "static/media/CV.pdf": "/mashaan/static/media/CV.390a9935c0d8727b30d9.pdf",
     "static/media/outline-icons.svg": "/mashaan/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/mashaan/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/mashaan/static/media/icons.c656b8caa454ed19b9a2.ttf",
@@ -33,11 +33,11 @@
     "static/media/pre.svg": "/mashaan/static/media/pre.921a3c5ae8c794792667.svg",
     "static/media/Icon-independent.svg": "/mashaan/static/media/Icon-independent.b0e5723556eb34fd139aed8a279d2b53.svg",
     "main.fd49b123.css.map": "/mashaan/static/css/main.fd49b123.css.map",
-    "main.1da220f2.js.map": "/mashaan/static/js/main.1da220f2.js.map",
+    "main.c2b80055.js.map": "/mashaan/static/js/main.c2b80055.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd49b123.css",
-    "static/js/main.1da220f2.js"
+    "static/js/main.c2b80055.js"
   ]
 }
