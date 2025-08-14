@@ -7,6 +7,7 @@ import { ReactComponent as Flag_of_Saudi_Arabia} from "../../Assets/Flag_of_Saud
 import { ReactComponent as Icon_KFUPM} from "../../Assets/Icon_KFUPM.svg";
 import { ReactComponent as Flag_of_Australia} from "../../Assets/Flag_of_Australia.svg";
 import { ReactComponent as Icon_sydney_uni} from "../../Assets/Icon_sydney_uni.svg";
+import "./Home.css"
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={8} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="heading">
                 Hi there!
               </h1>
 
@@ -32,6 +33,7 @@ function Home() {
               </div>
             </Col>
 
+            {/*
             <Col md={4} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
@@ -40,6 +42,7 @@ function Home() {
                 style={{ maxHeight: "450px" }}
               />
             </Col>
+            */}
           </Row>
           <Row md={8} className="home-about-description">
           <div>
