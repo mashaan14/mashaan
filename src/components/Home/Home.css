@@ -7,6 +7,18 @@
 
 .home-header {
   padding-top: 80px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .home-section {
@@ -23,6 +35,8 @@
   text-align: left;
   padding-bottom: 50px;
   padding-top: 50px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(242, 242, 242, 0.3) 100%);
+  min-height: calc(100vh - 200px);
 }
 
 .heading {
@@ -30,6 +44,9 @@
   font-weight: 600;
   font-size: 2.4em;
   padding-left: 50px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
 }
 
 .heading-name {
@@ -37,6 +54,9 @@
   font-weight: 600;
   font-size: 1.8em;
   padding-left: 45px;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin-bottom: 1rem;
 }
 
 .main-name-Arabic {
@@ -45,6 +65,9 @@
   font-style: normal;
   font-size: 1.6em;
   color: var(--imp-text-color);
+  display: block;
+  margin-top: 0.5rem;
+  opacity: 0.9;
 }
 
 .Typewriter__wrapper {
@@ -106,11 +129,27 @@
   padding-top: 20px;
   font-size: 1.2em;
   text-align: left;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home-about-body a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.home-about-body a:hover {
+  color: var(--highlight-color);
+  border-bottom-color: var(--highlight-color);
 }
 
 .home-about-social {
   text-align: center;
-  padding: 25px 0 60px;
+  padding: 40px 0 80px;
   color: var(--imp-text-color);
 }
 
@@ -122,9 +161,14 @@
 .home-about-social-links {
   justify-content: center;
   padding-top: 8px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
   position: relative;
   padding-inline-start: 0;
+  list-style: none;
+  margin: 0;
+  gap: 0;
 }
 
 .home-social-icons {
@@ -132,14 +176,15 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
-  background: var(--accent-color);
-  border-radius: 30%;
-  transition: 0.5s;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--highlight-color) 100%);
+  border-radius: 50%;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
   font-size: 1.2em;
   color: var(--light-bg-color);
+  box-shadow: 0 2px 8px rgba(55, 71, 242, 0.2);
 }
 
 .home-social-icons::before {
@@ -163,13 +208,34 @@
 
 .home-social-icons:hover {
   color: var(--light-bg-color);
-  box-shadow: 0 0 10px var(--highlight-color);
+  box-shadow: 0 4px 20px rgba(92, 140, 255, 0.4);
   text-shadow: none;
+  transform: translateY(-3px) scale(1.1);
 }
 
 .social-icons {
   display: inline-block;
   padding: 0 15px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .social-icons {
+    padding: 0 8px;
+  }
+  
+  .home-social-icons {
+    width: 40px;
+    height: 40px;
+    font-size: 1em;
+  }
+  
+  .home-about-social-links {
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 .icon-colour {

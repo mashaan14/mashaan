@@ -1,7 +1,12 @@
 .experience-section {
-  padding-bottom: 100px ;
-  padding-top: 100px ;
-  max-width: 1400px;
+  padding: 100px 2rem;
+  max-width: 1200px;
   margin: 0 auto;
   color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 60px 1rem;
+  }
 }

@@ -6,8 +6,6 @@ import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import Research from "./components/Research/Research";
 import Projects from "./components/Projects/Projects";
-import Services from "./components/Services/Services";
-import Teaching from "./components/Teaching/Teaching";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import {
@@ -43,8 +41,6 @@ function App() {
             <Route path="/Education" element={<Education />} />
             <Route path="/Research" element={<Research />} />
             <Route path="/Projects" element={<Projects />} />
-            <Route path="/Services" element={<Services />} />
-            <Route path="/Teaching" element={<Teaching />} />
             <Route path="/Resume" element={<Resume />} />
             <Route path="*" element={<Navigate to="/"/>} />
           </Routes>

@@ -13,11 +13,8 @@ import {
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
 import {BsFillPersonLinesFill} from "react-icons/bs";
-import {FaUserGraduate,
-        FaToolbox,
-} from "react-icons/fa";
+import {FaUserGraduate} from "react-icons/fa";
 import {BiLibrary} from "react-icons/bi";
-import {PiChalkboardTeacherLight} from "react-icons/pi";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -60,7 +57,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav defaultActiveKey="#home">
             <Nav.Item>
             <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
               <Icon name="home"/> Home
@@ -88,18 +85,6 @@ function NavBar() {
             <Nav.Item>
             <Nav.Link as={Link} to="/Projects" onClick={() => updateExpanded(false)}>
               <Icon name="code_blocks" /> Projects
-            </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-            <Nav.Link as={Link} to="/Services" onClick={() => updateExpanded(false)}>
-              <Icon name="service_toolbox" /> Services
-            </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-            <Nav.Link as={Link} to="/Teaching" onClick={() => updateExpanded(false)}>
-              <Icon name="co_present" /> Teaching
             </Nav.Link>
             </Nav.Item>
 

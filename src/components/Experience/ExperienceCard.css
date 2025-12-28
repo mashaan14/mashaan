@@ -9,30 +9,44 @@
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
-  background: transparent;
-  border-radius: 12px;
+  background: white;
+  border-radius: 16px;
   color: var(--accent-color);
-  box-shadow: 0 1px 3px var(--highlight-color);
-  padding: 1rem;
-  margin: 1.2rem 0;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  margin: 1.5rem auto;
+  max-width: 900px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(55, 71, 242, 0.1);
 }
 
 .experience-card:hover {
-  transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 6px 16px var(--highlight-color);
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 12px 40px rgba(92, 140, 255, 0.25);
+  border-color: rgba(92, 140, 255, 0.3);
+}
+
+.experience-icon {
+  flex-shrink: 0;
 }
 
 .experience-icon svg {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   color: var(--accent-color);
   display: block;
   margin: auto;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.experience-card:hover .experience-icon svg {
+  opacity: 1;
 }
 
 .experience-content {
   flex: 1;
+  min-width: 0;
 }
 
 .experience-header {
@@ -65,45 +79,52 @@
 }
 
 .experience-description {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--imp-text-color);
   text-align: left;
   padding-top: 10px;
+  line-height: 1.7;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .experience-section {
-    padding: 1rem;
-  }
-
   .experience-card {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    max-width: 100%;
   }
 
   .experience-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+    width: 100%;
   }
 
-.experience-icon svg {
-  width: 180px;
-  height: 180px;
-}
+  .experience-icon svg {
+    width: 100px;
+    height: 100px;
+  }
 
   .experience-title {
     text-align: left;
+    font-size: 1.3rem;
   }
 
   .experience-time {
     text-align: left;
+    font-size: 1rem;
   }
 
   .experience-location {
     text-align: left;
+    font-size: 1rem;
+  }
+
+  .experience-description {
+    font-size: 0.95rem;
   }
 }
