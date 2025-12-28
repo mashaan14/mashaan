@@ -84,7 +84,7 @@
   .education-card {
     border-left: 4px solid var(--accent-color);
     border-bottom: none;
-    padding: 1.5rem;
+    padding: 1.75rem;
   }
   
   .degree {
@@ -93,5 +93,17 @@
   
   .institution {
     font-size: 1rem;
+  }
+  
+  .time-location {
+    font-size: 0.85rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .time {
+    font-size: 0.9rem;
   }
 }

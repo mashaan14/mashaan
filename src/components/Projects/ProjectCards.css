@@ -87,3 +87,23 @@
   text-shadow: none;
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 1.75rem;
+    min-height: 400px;
+  }
+  
+  .project-title {
+    font-size: 1.2rem;
+  }
+  
+  .project-description {
+    font-size: 0.95rem;
+  }
+  
+  .project-links a {
+    padding: 0.55rem 1.1rem;
+    font-size: 0.95rem;
+  }
+}
