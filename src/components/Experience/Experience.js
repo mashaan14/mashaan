@@ -1,14 +1,6 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import './Experience.css';
-// Import the SVG images
-import IconIndependent from './icons/Icon-independent.svg';
-import { ReactComponent as IndependentIcon } from './icons/Icon-independent.svg';
-import { ReactComponent as IconSPI} from "./icons/Icon-SPI.svg";
-import { ReactComponent as IndependentSABIC } from './icons/Icon-SABIC.svg';
-import { ReactComponent as IconARAMCO} from "./icons/Icon-ARAMCO.svg";
-import { ReactComponent as IconUOH} from "./icons/Icon-UOH.svg";
-
 
 export default function Experience() {
   return (
