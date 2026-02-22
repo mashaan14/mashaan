@@ -46,10 +46,10 @@ function Home() {
           <Row md={8} className="home-about-description">
           <div>
             <p className="home-about-body">
-            My research interests are in graph neural networks and vision transformers. Lately, I've been curious about neural radiance fields and 3D reconstruction. I post YouTube videos about my research experiments and also provide AI consulting services to organizations in Saudi Arabia.
-            <br /><br />
-            I began my career in 2010 as a system engineer at <a href="https://www.sabic.com/en"><b>SABIC</b></a>. In 2013, I decided to pursue a graduate degree. I got my M.S. degree in Computer Science from <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM) </b></a>  
-            <Icon_KFUPM className="flag-icons"/> <Flag_of_Saudi_Arabia className="flag-icons"/> in 2016, and the Ph.D. degree in Computer Science from <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> <Icon_sydney_uni className="flag-icons"/> <Flag_of_Australia className="flag-icons"/> in 2021.
+              My research interests focus on graph neural networks and vision transformers. I am also exploring neural radiance fields and 3D reconstruction. I share my research experiments on <a href="https://youtube.com/@mashaan14"><b>YouTube</b></a> and publish accompanying technical <a href="https://mashaan14.github.io/YouTube-channel"><b>blog</b></a> posts alongside my videos.
+            <br />
+             I did my M.S. degree in Computer Science at <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM) </b></a>  
+            <Icon_KFUPM className="flag-icons"/> <Flag_of_Saudi_Arabia className="flag-icons"/> in 2016, and the Ph.D. degree in Computer Science at <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> <Icon_sydney_uni className="flag-icons"/> <Flag_of_Australia className="flag-icons"/> in 2021.
             </p>
           </div>
         </Row>          

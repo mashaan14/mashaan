@@ -98,13 +98,6 @@ function NavBar() {
                 <Icon name="edit_square" /> Blog
               </Nav.Link>
             </Nav.Item>
-          
-            <Nav.Item>
-            <Nav.Link as={Link} to="/Resume" onClick={() => updateExpanded(false)}>
-              <Icon name="description" /> Resume
-            </Nav.Link>
-            </Nav.Item>
-
 
           </Nav>
         </Navbar.Collapse>
