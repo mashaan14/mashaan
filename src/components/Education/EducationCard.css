@@ -67,7 +67,7 @@
   margin-top: auto;
   padding: 0.5rem 1rem;
   color: var(--light-bg-color);
-  background: linear-gradient(135deg, var(--accent-color) 0%, var(--highlight-color) 100%);
+  background: var(--accent-color);
   text-decoration: none;
   border-radius: 8px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

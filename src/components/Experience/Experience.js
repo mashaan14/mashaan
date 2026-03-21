@@ -6,17 +6,23 @@ export default function Experience() {
   return (
     <div className="experience-section">
       <ExperienceCard
+        title="Senior Engineer"
+        location="Qualcomm, Riyadh, Saudi Arabia"
+        time="2026 - Present"
+        description="Supporting the delivery of Qualcomm's AI100-based accelerators for data centers."
+      />
+      <ExperienceCard
         title="Senior Data Scientist"
         location="SAB Bank, Riyadh, Saudi Arabia"
-        time="2025 - Present"
-        description="Owned the end-to-end BI pipeline, from ingesting data (Oracle, SQL Server, IBM DB2, TRIRIGA) through transformation and validation to Tableau reporting layers. I also designed and deployed machine learning and optimization models in a highly regulated banking environment, supporting workforce planning, operational eﬃciency, and decision automation.
+        time="2025 - 2026"
+        description="Owned the end-to-end BI pipeline, from ingesting data (Oracle, SQL Server) through transformation and validation to Tableau reporting layers. I also designed and deployed machine learning and optimization models in a highly regulated banking environment, supporting workforce planning, operational eﬃciency, and decision automation.
 "
       />
       <ExperienceCard
         title="Machine Learning Researcher"
         location="Independent Researcher, Riyadh, Saudi Arabia"
         time="2023 - 2025"
-        description="Creating YouTube tutorials on Python ML experiments using PyTorch, JAX, Flax, and scikit-learn. I also worked on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on Graph Neural Networks (GNNs) and 3D reconstruction.
+        description="Creating YouTube videos about Python machine learning experiments with PyTorch and JAX. I also worked on machine learning research with researchers from the University of Sydney and KFUPM. Our research focuses on Graph Neural Networks (GNNs) and 3D reconstruction.
 "
       />
       <ExperienceCard
@@ -35,13 +41,13 @@ export default function Experience() {
         title="Curriculum Development Collaborator"
         location="Sydney Polytechnic Institute, Sydney, Australia"
         time="2020 - 2021"
-        description="I designed and developed course materials, including lecture slides, assignments, practical sessions, and exams, for courses such as (Mathematics for Data Science) and (Artificial Intelligence and Innovation), as part of my curriculum development work for a Master of Data Science program at SPI."
+        description="I designed and developed course materials for courses such as (Mathematics for Data Science) and (Artificial Intelligence and Innovation), as part of my curriculum development work for a Master of Data Science program at SPI."
       />      
       <ExperienceCard
         title="System Engineer"
         location="SABIC, Jubail, Saudi Arabia"
         time="2010 - 2012"
-        description="I was part of a team that secures and maintains the plant network. We upgraded the servers and network switches during plant online operation. The process involves ordering the hardware ahead, planning the upgrade, and documenting the process for future reference."
+        description="I was part of a team that secures and maintains on-premises data center. We upgraded the servers and network switches during plant online operation. The process involves ordering the hardware ahead, planning the upgrade, and documenting the process for future reference."
       />
       <ExperienceCard
         title="Intern"

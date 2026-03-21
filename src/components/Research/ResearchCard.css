@@ -64,7 +64,7 @@
 
 .research-button {
   color: var(--light-bg-color);
-  background: linear-gradient(135deg, var(--accent-color) 0%, var(--highlight-color) 100%);
+  background: var(--accent-color);
   padding: 0.6rem 1.2rem;
   text-decoration: none;
   border-radius: 8px;

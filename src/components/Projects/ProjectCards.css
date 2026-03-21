@@ -72,7 +72,7 @@
 .project-links a {
   text-decoration: none;
   color: var(--light-bg-color);
-  background: linear-gradient(135deg, var(--accent-color) 0%, var(--highlight-color) 100%);
+  background: var(--accent-color);
   font-weight: 500;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0.6rem 1.2rem; 
