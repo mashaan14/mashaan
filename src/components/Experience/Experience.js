@@ -6,10 +6,10 @@ export default function Experience() {
   return (
     <div className="experience-section">
       <ExperienceCard
-        title="Senior Engineer"
+        title="Senior Engineer, AI Solutions"
         location="Qualcomm, Riyadh, Saudi Arabia"
         time="2026 - Present"
-        description="Supporting the delivery of Qualcomm's AI100-based accelerators for data centers."
+        description="As a Senior Engineer in AI Solutions, I support the delivery of Qualcomm’s AI100, AI200, and AI250 accelerators for data center use. I work on AI solutions built around these platforms, helping bring Qualcomm’s accelerator capabilities to a broad range of demanding applications."
       />
       <ExperienceCard
         title="Senior Data Scientist"
