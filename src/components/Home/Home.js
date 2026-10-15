@@ -5,7 +5,6 @@ import { ReactComponent as SaudiFlag } from "../../Assets/Flag_of_Saudi_Arabia.s
 import { ReactComponent as KfupmIcon } from "../../Assets/Icon_KFUPM.svg";
 import { ReactComponent as AustralianFlag } from "../../Assets/Flag_of_Australia.svg";
 import { ReactComponent as SydneyIcon } from "../../Assets/Icon_sydney_uni.svg";
-import cvPdf from "../../Assets/CV.pdf";
 import Type from "./Type";
 import "./Home.css";
 
@@ -14,11 +13,6 @@ function Home() {
     <section className="home-section">
       <div className="home-content">
         <header className="home-header">
-          <p className="home-eyebrow">
-            <span>Senior Engineer, AI Solutions</span>
-            <span aria-hidden="true">·</span>
-            <span>Qualcomm</span>
-          </p>
           <h1 className="heading-name">
             <span className="home-name-latin">
               <span>Mashaan</span>
@@ -26,14 +20,20 @@ function Home() {
             </span>
             <strong className="main-name-Arabic" lang="ar" dir="rtl">مشعان عواد الشمري</strong>
           </h1>
+          <p className="home-position">
+            <span>Senior Engineer, AI Solutions</span>
+            <span aria-hidden="true">·</span>
+            <span>Qualcomm</span>
+          </p>
           <Type />
           <nav className="home-actions" aria-label="Featured links">
             <a
               className="home-action home-action-primary"
-              href={cvPdf}
-              download="Mashaan-Alshammari-CV.pdf"
+              href="https://youtube.com/@mashaan14"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Download CV
+              <FaYoutube aria-hidden="true" /> YouTube channel
             </a>
             <Link className="home-action" to="/Research">View research</Link>
             <a className="home-action" href="mailto:mashaan.awad@outlook.com">Contact</a>
