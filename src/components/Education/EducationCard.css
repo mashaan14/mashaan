@@ -7,13 +7,13 @@
 
 .education-card {
   background: white;
+  border: 1px solid rgba(55, 71, 242, 0.14);
   border-left: 4px solid var(--accent-color);
   border-radius: 16px;
   padding: 2rem;
   margin: 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(55, 71, 242, 0.1);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,8 @@
 .education-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 40px rgba(92, 140, 255, 0.25);
-  border-left-color: var(--highlight-color);
   border-color: rgba(92, 140, 255, 0.3);
+  border-left-color: var(--highlight-color);
 }
 
 .degree {
@@ -51,6 +51,9 @@
 .description {
   color: var(--imp-text-color);
   font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.65;
+  margin-bottom: 1rem;
 }
 
 .time {

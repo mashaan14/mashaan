@@ -20,6 +20,12 @@
   flex-wrap: wrap;
 }
 
+.research-intro {
+  margin: -1.75rem 0 1.75rem;
+  color: var(--imp-text-color);
+  text-align: center;
+}
+
 .research-links-top a {
   text-decoration: none;
   color: var(--light-bg-color);

@@ -5,6 +5,7 @@ import './Experience.css';
 export default function Experience() {
   return (
     <div className="experience-section">
+      <h1 className="page-title">Experience</h1>
       <ExperienceCard
         title="Senior Engineer, AI Solutions"
         location="Qualcomm, Riyadh, Saudi Arabia"

@@ -5,6 +5,7 @@ import "./Education.css";
 const Education = () => {
   return (
     <div className="education-section">
+      <h1 className="page-title">Education</h1>
       <div className="education-grid">
         <EducationCard
           degree="PhD in Computer Science"

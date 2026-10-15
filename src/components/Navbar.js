@@ -1,109 +1,87 @@
-import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
+import React, { useEffect, useState } from "react";
+import BootstrapNavbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-
-
-
-import { ImBlog } from "react-icons/im";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
-import {BsFillPersonLinesFill} from "react-icons/bs";
-import {FaUserGraduate} from "react-icons/fa";
-import {BiLibrary} from "react-icons/bi";
-
-import { CgFileDocument } from "react-icons/cg";
-
-const Icon = ({ name, style = {} }) => (
-  <span className="material-symbols-outlined" style={{ verticalAlign: "middle", ...style }}>
+const Icon = ({ name }) => (
+  <span aria-hidden="true" className="material-symbols-outlined">
     {name}
   </span>
 );
 
-function NavBar() {
-  const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+function Navbar() {
+  const [expanded, setExpanded] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY >= 20);
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
-  window.addEventListener("scroll", scrollHandler);
+  const closeMenu = () => setExpanded(false);
 
   return (
-    <Navbar
-      expanded={expand}
+    <BootstrapNavbar
+      expanded={expanded}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className={`site-navbar${scrolled ? " site-navbar-scrolled" : ""}`}
     >
       <Container>
-        <Navbar.Toggle
+        <BootstrapNavbar.Toggle
           aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
+          aria-label={expanded ? "Close navigation" : "Open navigation"}
+          onClick={() => setExpanded((current) => !current)}
         >
           <span></span>
           <span></span>
           <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav defaultActiveKey="#home">
+        </BootstrapNavbar.Toggle>
+        <BootstrapNavbar.Collapse id="responsive-navbar-nav">
+          <Nav as="nav" aria-label="Main navigation">
             <Nav.Item>
-            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-              <Icon name="home"/> Home
-            </Nav.Link>
+              <Nav.Link as={NavLink} to="/" end onClick={closeMenu}>
+                <Icon name="home" /> Home
+              </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-            <Nav.Link as={Link} to="/Experience" onClick={() => updateExpanded(false)}>
-              <Icon name="work" /> Experience
-            </Nav.Link>
+              <Nav.Link as={NavLink} to="/Experience" onClick={closeMenu}>
+                <Icon name="work" /> Experience
+              </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-            <Nav.Link as={Link} to="/Education" onClick={() => updateExpanded(false)}>
-              <Icon name="school"/> Education
-            </Nav.Link>
+              <Nav.Link as={NavLink} to="/Education" onClick={closeMenu}>
+                <Icon name="school" /> Education
+              </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-            <Nav.Link as={Link} to="/Research" onClick={() => updateExpanded(false)}>
-              <Icon name="menu_book"/> Research
-            </Nav.Link>
+              <Nav.Link as={NavLink} to="/Research" onClick={closeMenu}>
+                <Icon name="menu_book" /> Research
+              </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-            <Nav.Link as={Link} to="/Projects" onClick={() => updateExpanded(false)}>
-              <Icon name="code_blocks" /> Projects
-            </Nav.Link>
+              <Nav.Link as={NavLink} to="/Projects" onClick={closeMenu}>
+                <Icon name="code_blocks" /> Projects
+              </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 href="https://mashaan14.github.io/YouTube-channel"
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => updateExpanded(false)}
+                onClick={closeMenu}
               >
                 <Icon name="edit_square" /> Blog
               </Nav.Link>
             </Nav.Item>
-
           </Nav>
-        </Navbar.Collapse>
+        </BootstrapNavbar.Collapse>
       </Container>
-    </Navbar>
+    </BootstrapNavbar>
   );
 }
 
-export default NavBar;
+export default Navbar;

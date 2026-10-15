@@ -3,18 +3,18 @@ import './ExperienceCard.css';
 
 const ExperienceCard = ({ title, location, time, description }) => {
   return (
-    <div className="experience-card">
+    <article className="experience-card">
       <div className="experience-content">
         <div className="experience-header">
           <div className="experience-title-wrapper">
-            <h3 className="experience-title">{title}</h3>
+            <h2 className="experience-title">{title}</h2>
             <span className="experience-time">{time}</span>
           </div>
         </div>
         <p className="experience-location">{location}</p>
         <p className="experience-description">{description}</p>
       </div>
-    </div>
+    </article>
   );
 };
 

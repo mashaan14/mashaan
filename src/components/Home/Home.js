@@ -1,117 +1,91 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Type from "./Type";
+import { Link } from "react-router-dom";
 import { FaRegEnvelope, FaYoutube, FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
-import { ReactComponent as Flag_of_Saudi_Arabia} from "../../Assets/Flag_of_Saudi_Arabia.svg";
-import { ReactComponent as Icon_KFUPM} from "../../Assets/Icon_KFUPM.svg";
-import { ReactComponent as Flag_of_Australia} from "../../Assets/Flag_of_Australia.svg";
-import { ReactComponent as Icon_sydney_uni} from "../../Assets/Icon_sydney_uni.svg";
-import "./Home.css"
+import { ReactComponent as SaudiFlag } from "../../Assets/Flag_of_Saudi_Arabia.svg";
+import { ReactComponent as KfupmIcon } from "../../Assets/Icon_KFUPM.svg";
+import { ReactComponent as AustralianFlag } from "../../Assets/Flag_of_Australia.svg";
+import { ReactComponent as SydneyIcon } from "../../Assets/Icon_sydney_uni.svg";
+import cvPdf from "../../Assets/CV.pdf";
+import Type from "./Type";
+import "./Home.css";
 
 function Home() {
   return (
-    <section>
-      <Container fluid>
-        
-        <Container className="home-content">
-          <Row>
-            <Col md={8} className="home-header">
-              <h1 className="heading">
-                Hi there!
-              </h1>
+    <section className="home-section">
+      <div className="home-content">
+        <header className="home-header">
+          <p className="home-eyebrow">
+            <span>Senior Engineer, AI Solutions</span>
+            <span aria-hidden="true">·</span>
+            <span>Qualcomm</span>
+          </p>
+          <h1 className="heading-name">
+            <span className="home-name-latin">
+              <span>Mashaan</span>
+              <span>Alshammari</span>
+            </span>
+            <strong className="main-name-Arabic" lang="ar" dir="rtl">مشعان عواد الشمري</strong>
+          </h1>
+          <Type />
+          <nav className="home-actions" aria-label="Featured links">
+            <a
+              className="home-action home-action-primary"
+              href={cvPdf}
+              download="Mashaan-Alshammari-CV.pdf"
+            >
+              Download CV
+            </a>
+            <Link className="home-action" to="/Research">View research</Link>
+            <a className="home-action" href="mailto:mashaan.awad@outlook.com">Contact</a>
+          </nav>
+        </header>
 
-              <h1 className="heading-name">
-                I'm Mashaan Alshammari
-                <br></br>
-                <br></br>
-                <strong className="main-name-Arabic"> مشعان عواد الشمري</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
-
-            {/*
-            <Col md={4} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-            */}
-          </Row>
-          <Row md={8} className="home-about-description">
-          <div>
-            <p className="home-about-body">
-              My research interests focus on graph neural networks and vision transformers. I am also exploring neural radiance fields and 3D reconstruction. I share my research experiments on <a href="https://youtube.com/@mashaan14"><b>YouTube</b></a> and publish accompanying technical <a href="https://mashaan14.github.io/YouTube-channel"><b>blog</b></a> posts alongside my videos.
+        <section className="home-about-section" aria-labelledby="home-about-title">
+          <h2 id="home-about-title" className="home-section-title">Research and background</h2>
+          <p className="home-about-body">
+            My research interests include graph neural networks and vision transformers. I also explore neural radiance fields and 3D reconstruction. I share research experiments on{" "}
+            <a href="https://youtube.com/@mashaan14" target="_blank" rel="noopener noreferrer">YouTube</a> and publish technical posts on my{" "}
+            <a href="https://mashaan14.github.io/YouTube-channel" target="_blank" rel="noopener noreferrer">blog</a>.
             <br />
-             I did my M.S. degree in Computer Science at <a href="http://www.kfupm.edu.sa/"><b>King Fahd University of Petroleum and Minerals (KFUPM) </b></a>  
-            <Icon_KFUPM className="flag-icons"/> <Flag_of_Saudi_Arabia className="flag-icons"/> in 2016, and the Ph.D. degree in Computer Science at <a href="https://www.sydney.edu.au/"><b>University of Sydney</b></a> <Icon_sydney_uni className="flag-icons"/> <Flag_of_Australia className="flag-icons"/> in 2021.
-            </p>
-          </div>
-        </Row>          
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1 className="home-about-social-text">FIND ME ON</h1>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="mailto:mashaan.awad@outlook.com"
-                  className="icon-colour  home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <FaRegEnvelope />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://youtube.com/@mashaan14"
-                  className="icon-colour home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <FaYoutube />
-                </a>
-              </li>              
-              <li className="social-icons">
-                <a
-                  href="https://github.com/mashaan14"
-                  className="icon-colour  home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <FaGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://x.com/mashaan_14"
-                  className="icon-colour  home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <FaXTwitter />
-                </a>
-              </li>              
-              <li className="social-icons">
-                <a
-                  href="https://linkedin.com/in/mashaan"
-                  className="icon-colour  home-social-icons"
-                  target="_blank" 
-                  rel="noopener noreferrer"                  
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>          
-        </Container>
-      </Container>
+            I earned an M.S. in Computer Science from{" "}
+            <a href="https://www.kfupm.edu.sa/" target="_blank" rel="noopener noreferrer">King Fahd University of Petroleum and Minerals (KFUPM)</a>{" "}
+            <KfupmIcon className="flag-icons" aria-hidden="true" /> <SaudiFlag className="flag-icons" aria-hidden="true" /> in 2016, and a Ph.D. in Computer Science from{" "}
+            <a href="https://www.sydney.edu.au/" target="_blank" rel="noopener noreferrer">the University of Sydney</a>{" "}
+            <SydneyIcon className="flag-icons" aria-hidden="true" /> <AustralianFlag className="flag-icons" aria-hidden="true" /> in 2021.
+          </p>
+        </section>
+
+        <section className="home-about-social" aria-labelledby="home-social-title">
+          <h2 id="home-social-title" className="home-about-social-text">Find me on</h2>
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a href="mailto:mashaan.awad@outlook.com" className="home-social-icons" aria-label="Email Mashaan">
+                <FaRegEnvelope aria-hidden="true" />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a href="https://youtube.com/@mashaan14" className="home-social-icons" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <FaYoutube aria-hidden="true" />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a href="https://github.com/mashaan14" className="home-social-icons" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <FaGithub aria-hidden="true" />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a href="https://x.com/mashaan_14" className="home-social-icons" target="_blank" rel="noopener noreferrer" aria-label="X">
+                <FaXTwitter aria-hidden="true" />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a href="https://linkedin.com/in/mashaan" className="home-social-icons" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <FaLinkedinIn aria-hidden="true" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </section>
   );
 }

@@ -1,19 +1,10 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
-      options={{
-        strings: [
-          "Machine Learning Researcher",
-          "YouTube Creator",          
-        ],
-        autoStart: true,
-        loop: true,
-        deleteSpeed: 50,
-      }}
-    />
+    <p className="home-role">
+      Machine learning researcher focused on graph neural networks, vision transformers, and 3D reconstruction.
+    </p>
   );
 }
 

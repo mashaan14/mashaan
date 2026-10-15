@@ -5,10 +5,12 @@ import "./Research.css"; // You can keep all layout styles here
 export default function Research() {
   return (
     <div className="research-page">
+      <h1 className="page-title">Research and Publications</h1>
       <div className="research-links-top">
         <a href="https://orcid.org/0000-0002-7864-0011">ORCID</a>
         <a href="https://scholar.google.com/citations?user=V3YkUVgAAAAJ&hl=en">Scholar</a>
       </div>
+      <p className="research-intro">Selected publications, listed newest first.</p>
 
       <div className="research-grid">
         <ResearchCard

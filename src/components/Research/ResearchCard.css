@@ -37,6 +37,7 @@
 }
 
 .research-title {
+  margin-top: 0;
   font-family: "Jost", sans-serif;
   font-weight: 600;    
   font-size: 1.15rem;
@@ -52,6 +53,29 @@
   font-size: 0.9rem;
   opacity: 0.7;
   font-style: italic;
+}
+
+.research-publication {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.research-publication .research-journal {
+  margin: 0;
+}
+
+.research-year {
+  flex: 0 0 auto;
+  padding: 0.2rem 0.55rem;
+  border-radius: 14px;
+  background: rgba(55, 71, 242, 0.1);
+  color: var(--accent-color);
+  font-size: 0.82rem;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .research-links {

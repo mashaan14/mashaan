@@ -1,22 +1,29 @@
 import React from "react";
 import "./ProjectCards.css";
 
-const ProjectCard = ({ image, title, description, links }) => {
+const ProjectCard = ({ category, image, title, description, links }) => {
   return (
-    <div className="project-card">
+    <article className="project-card">
       <div className="project-image-wrapper">
-        <img src={image} alt={title} className="project-image" />
+        <img src={image} alt={`${title} preview`} loading="lazy" decoding="async" className="project-image" />
       </div>
-      <h3 className="project-title">{title}</h3>
+      <p className="project-category">{category}</p>
+      <h2 className="project-title">{title}</h2>
       <p className="project-description">{description}</p>
       <div className="project-links">
         {links.map((link, index) => (
-          <a key={index} href={link.href} target="_blank" rel="noopener noreferrer">
+          <a
+            key={index}
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${link.label}: ${title}`}
+          >
             {link.label}
           </a>
         ))}
       </div>
-    </div>
+    </article>
   );
 };
 

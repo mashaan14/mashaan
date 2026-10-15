@@ -1,44 +1,40 @@
-:root {
-  --background-color: #ffffff;
-  --text-color: #ffffff;
-  --link-color: #4B668C;
+.App {
+  display: flex;
+  min-height: 100vh;
+  min-width: 0;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
-.App {
+.site-main {
+  width: 100%;
+  min-width: 0;
+  flex: 1 0 auto;
+}
+
+.page-title {
+  margin: 0 0 2rem;
+  color: var(--accent-color);
+  font-family: "Jost", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1.2;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1100;
+  padding: 0.65rem 0.9rem;
+  transform: translateY(-160%);
+  border-radius: 6px;
+  background: #ffffff;
+  color: var(--accent-color);
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: var(--background-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--text-color);
-}
-
-.App-link {
-  color: var(--link-color);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skip-link:focus {
+  transform: translateY(0);
 }

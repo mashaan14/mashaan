@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import ProjectCard from "./ProjectCards";
 import "./Projects.css";
 
 const projectData = [
   {
+    category: "JAX and TPUs",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_07_14_jax_device_mesh.avif?raw=true",
     title: "JAX Performance Tips",
     description: "Videos about JAX parallelism and how to get free TPUs through Google's TPU Research Cloud.",
@@ -14,6 +15,7 @@ const projectData = [
     ]
   },  
   {
+    category: "3D reconstruction",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_02_03_your_own_NeRF.avif?raw=true",
     title: "Neural Radiance Fields (NeRF) Experiments",
     description: "I performed 3D reconstruction experiments using recent NeRF advancements such as Mip-NeRF 360. Compute resources for these experiments were provided by Google Cloud TPUs and Lightning AI GPUs.",
@@ -24,6 +26,7 @@ const projectData = [
     ]
   },
   {
+    category: "Vision",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2023-11-29-VisionTransformer-MNIST.avif?raw=true",
     title: "Visualizing Attention in a Vision Transformer on MNIST",
     description: "I built a Vision Transformer (ViT) model based on the “An Image is Worth 16x16 Words” paper. In this video, I’ll walk through building it in PyTorch, training it on MNIST, and testing it with some sample images to see how it responds.",
@@ -33,6 +36,7 @@ const projectData = [
     ]
   },
   {
+    category: "Vision",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_05_12_DINOv2.avif?raw=true",
     title: "Self-Supervised Learning",
     description: "Videos exploring well-known SSL methods such as DINOv2 and I-JEPA.",
@@ -43,6 +47,7 @@ const projectData = [
     ]
   },  
   {
+    category: "Graph learning",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_05_27_GNN_sampling.avif?raw=true",
     title: "GNN Training with Mini-Batches",
     description: "In this tutorial series, I covered techniques for creating mini-batches for Graph Neural Network (GNN) training. I also implemented well-known samplers such as neighbor sampling and Cluster-GCN in JAX.",
@@ -53,6 +58,7 @@ const projectData = [
     ]
   },
   {
+    category: "Vision",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_09_16_Swin_Transformer_Attention.avif?raw=true",
     title: "SWIN Transformer",
     description: "The Swin Transformer is a well-known transformer architecture for image classification and is usually used as a backbone for various downstream tasks in computer vision. In these two videos, I explain the Swin Transformer's code and demonstrate attention visualization.",
@@ -62,6 +68,7 @@ const projectData = [
     ]
   },
   {
+    category: "JAX and TPUs",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_03_28_jax_ViT.avif?raw=true",
     title: "JAX Tutorials",
     description: "I've created YouTube tutorials demonstrating Vision Transformer and CNN implementations in JAX, a deep learning library that has become increasingly popular in the research community, especially for TPU experimentation.",
@@ -72,6 +79,7 @@ const projectData = [
     ]
   },
   {
+    category: "3D reconstruction",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_11_25_NeRF.avif?raw=true",
     title: "Neural Radiance Fields (NeRF) Tutorials",
     description: "I've created tutorials explaining the original NeRF algorithm and 3D Gaussian Splatting, two prominent techniques in 3D rendering using Neural Radiance Fields (NeRFs).",
@@ -81,6 +89,7 @@ const projectData = [
     ]
   },
   {
+    category: "Graph learning",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_02_05_GAT.avif?raw=true",
     title: "Graph Attention",
     description: "The Graph Attention Network (GAT) is a well-known architecture within the field of graph neural networks (GNNs). I created YouTube tutorials demonstrating GAT implementations using PyTorch Geometric, DGL, and Jraph.",
@@ -91,6 +100,7 @@ const projectData = [
     ]
   },
   {
+    category: "Graph learning",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_04_07_LightGCN.avif?raw=true",
     title: "Recommender Systems",
     description: "Videos exploring how to use graph neural networks to build recommender systems.",
@@ -100,6 +110,7 @@ const projectData = [
     ]
   },
   {
+    category: "Graph learning",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2024_01_15_spectral_clustering.avif?raw=true",
     title: "Spectral Clustering",
     description: "Code walkthroughs for spectral clustering and sparse subspace clustering.",
@@ -109,6 +120,7 @@ const projectData = [
     ]
   },
   {
+    category: "Vision",
     image: "https://github.com/mashaan14/YouTube-channel/blob/main/imgs/2025_03_03_TAPIR.avif?raw=true",
     title: "Detection and Tracking",
     description: "Computer vision experiments exploring object detection and point tracking.",
@@ -120,12 +132,37 @@ const projectData = [
 ];
 
 const Projects = () => {
+  const [activeCategory, setActiveCategory] = useState("All");
+  const categories = ["All", ...new Set(projectData.map((project) => project.category))];
+  const visibleProjects = activeCategory === "All"
+    ? projectData
+    : projectData.filter((project) => project.category === activeCategory);
+
   return (
-    <div className="projects-container">
-      {projectData.map((project, index) => (
-        <ProjectCard key={index} {...project} />
-      ))}
-    </div>
+    <section className="projects-page" aria-labelledby="projects-title">
+      <h1 id="projects-title" className="page-title">Projects and Tutorials</h1>
+      <nav className="project-filters" aria-label="Filter projects by topic">
+        {categories.map((category) => (
+          <button
+            key={category}
+            type="button"
+            className={`project-filter${activeCategory === category ? " is-active" : ""}`}
+            aria-pressed={activeCategory === category}
+            onClick={() => setActiveCategory(category)}
+          >
+            {category}
+          </button>
+        ))}
+      </nav>
+      <p className="project-count" aria-live="polite">
+        Showing {visibleProjects.length} {visibleProjects.length === 1 ? "project" : "projects"}
+      </p>
+      <div className="projects-container">
+        {visibleProjects.map((project) => (
+          <ProjectCard key={project.title} {...project} />
+        ))}
+      </div>
+    </section>
   );
 };
 
