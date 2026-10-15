@@ -24,7 +24,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin: 0 0 0.65rem;
+  margin: 1rem 0 0.65rem;
   color: var(--accent-color);
   font-family: "Jost", sans-serif;
   font-size: 1rem;
