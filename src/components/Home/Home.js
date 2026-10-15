@@ -47,7 +47,7 @@ function Home() {
             <a href="https://youtube.com/@mashaan14" target="_blank" rel="noopener noreferrer">YouTube</a> and publish technical posts on my{" "}
             <a href="https://mashaan14.github.io/YouTube-channel" target="_blank" rel="noopener noreferrer">blog</a>.
             <br />
-            I earned an M.S. in Computer Science from{" "}
+            I got my M.S. in Computer Science from{" "}
             <a href="https://www.kfupm.edu.sa/" target="_blank" rel="noopener noreferrer">King Fahd University of Petroleum and Minerals (KFUPM)</a>{" "}
             <KfupmIcon className="flag-icons" aria-hidden="true" /> <SaudiFlag className="flag-icons" aria-hidden="true" /> in 2016, and a Ph.D. in Computer Science from{" "}
             <a href="https://www.sydney.edu.au/" target="_blank" rel="noopener noreferrer">the University of Sydney</a>{" "}
