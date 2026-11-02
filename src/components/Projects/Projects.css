@@ -26,15 +26,16 @@
   border-radius: 20px;
   background: #ffffff;
   color: var(--accent-color);
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
   cursor: pointer;
 }
 
 .project-filter:hover,
 .project-filter.is-active {
-  background: var(--accent-color);
-  color: #ffffff;
+  background: var(--champagne-color);
+  border-color: var(--highlight-color);
+  color: var(--accent-color);
 }
 
 .project-count {

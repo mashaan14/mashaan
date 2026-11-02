@@ -15,7 +15,7 @@
 .page-title {
   margin: 0 0 2rem;
   color: var(--accent-color);
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: clamp(2rem, 4vw, 2.75rem);
   font-weight: 700;
   line-height: 1.2;

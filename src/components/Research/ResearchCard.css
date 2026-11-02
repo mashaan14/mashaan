@@ -1,19 +1,11 @@
-:root {
-  --imp-text-color: #0d0d0d;
-  --light-bg-color: #f2f2f2;
-  --accent-color: #3747F2;
-  --highlight-color: #5C8CFF;
-}
-
 .research-card {
   width: 100%;
   margin: 0 auto; 
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   background: white;
-  border: 1px solid rgba(55, 71, 242, 0.1);
+  border: 1px solid var(--card-border-color);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -23,8 +15,7 @@
 
 .research-card:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 12px 40px rgba(92, 140, 255, 0.25);
-  border-color: rgba(92, 140, 255, 0.3);
+  border-color: var(--champagne-color);
 }
 
 .research-author {
@@ -32,13 +23,12 @@
   text-align: left;
   color: var(--imp-text-color);
   font-size: 0.9rem;
-  opacity: 0.8;
   line-height: 1.5;
 }
 
 .research-title {
   margin-top: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;    
   font-size: 1.15rem;
   color: var(--accent-color);
@@ -51,7 +41,6 @@
   text-align: left;
   color: var(--imp-text-color);
   font-size: 0.9rem;
-  opacity: 0.7;
   font-style: italic;
 }
 
@@ -71,7 +60,7 @@
   flex: 0 0 auto;
   padding: 0.2rem 0.55rem;
   border-radius: 14px;
-  background: rgba(55, 71, 242, 0.1);
+  background: var(--light-bg-color);
   color: var(--accent-color);
   font-size: 0.82rem;
   font-style: normal;
@@ -87,20 +76,20 @@
 }
 
 .research-button {
-  color: var(--light-bg-color);
-  background: var(--accent-color);
+  color: var(--accent-color);
+  background: var(--champagne-color);
+  border: 1px solid var(--accent-color);
   padding: 0.6rem 1.2rem;
   text-decoration: none;
   border-radius: 8px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
-  box-shadow: 0 2px 8px rgba(55, 71, 242, 0.2);
   display: inline-block;
 }
 
 .research-button:hover {
-  color: var(--light-bg-color);
-  box-shadow: 0 4px 16px rgba(92, 140, 255, 0.4);
+  color: var(--accent-color);
+  border-color: var(--highlight-color);
   text-shadow: none;
   transform: translateY(-2px);
 }

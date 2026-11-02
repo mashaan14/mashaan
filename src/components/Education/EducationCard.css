@@ -1,18 +1,10 @@
-:root {
-  --imp-text-color: #0d0d0d;
-  --light-bg-color: #f2f2f2;
-  --accent-color: #3747F2;
-  --highlight-color: #5C8CFF;
-}
-
 .education-card {
   background: white;
-  border: 1px solid rgba(55, 71, 242, 0.14);
+  border: 1px solid var(--card-border-color);
   border-left: 4px solid var(--accent-color);
   border-radius: 16px;
   padding: 2rem;
   margin: 0;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   display: flex;
@@ -21,13 +13,12 @@
 
 .education-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(92, 140, 255, 0.25);
-  border-color: rgba(92, 140, 255, 0.3);
+  border-color: var(--champagne-color);
   border-left-color: var(--highlight-color);
 }
 
 .degree {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;    
   margin: 0 0 0.75rem 0;
   font-size: 1.3rem;
@@ -60,27 +51,26 @@
   color: var(--imp-text-color);
   font-size: 0.95rem;
   margin: 0.5rem 0 1rem 0;
-  opacity: 0.8;
 }
 
 .education-link {
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   display: inline-block;
   margin-top: auto;
   padding: 0.5rem 1rem;
-  color: var(--light-bg-color);
-  background: var(--accent-color);
+  background: var(--champagne-color);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
   text-decoration: none;
   border-radius: 8px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 8px rgba(55, 71, 242, 0.2);
   align-self: flex-start;
 }
 
 .education-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(92, 140, 255, 0.4);
+  border-color: var(--highlight-color);
 }
 
 @media (max-width: 768px) {

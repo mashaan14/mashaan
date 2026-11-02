@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Markazi+Text:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,400..700&display=swap');
 
 :root {
-  --imp-text-color: #0d0d0d;
-  --light-bg-color: #f2f2f2;
-  --accent-color: #3747F2;
-  --highlight-color: #5C8CFF;
-  --card-border-color: rgba(55, 71, 242, 0.14);
+  --imp-text-color: #020B3F;
+  --light-bg-color: #EAE9E1;
+  --accent-color: #020B3F;
+  --highlight-color: #896200;
+  --champagne-color: #CEB888;
+  --card-border-color: #EAE9E1;
 }
 
 html {
@@ -14,9 +15,9 @@ html {
 
 body {
   margin: 0;
-  background: #ffffff;
+  background: #FFFFFF;
   color: var(--imp-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
 }
 
@@ -30,27 +31,27 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background: var(--accent-color);
+  background: var(--champagne-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--highlight-color);
+  background: var(--champagne-color);
 }
 
 .site-navbar {
   z-index: 999;
   padding: 0.65rem 1rem;
-  background: var(--accent-color);
-  box-shadow: 0 3px 14px rgba(55, 71, 242, 0.18);
-  transition: box-shadow 0.2s ease;
+  border-bottom: 1px solid var(--champagne-color);
+  background: var(--light-bg-color);
+  transition: border-color 0.2s ease;
 }
 
 .site-navbar-scrolled {
-  box-shadow: 0 4px 18px rgba(55, 71, 242, 0.28);
+  border-bottom-color: var(--highlight-color);
 }
 
 .site-navbar .navbar-toggler {
-  border: 1px solid rgba(242, 242, 242, 0.55);
+  border: 1px solid var(--accent-color);
   border-radius: 6px;
   background: transparent;
 }
@@ -61,7 +62,7 @@ body {
   height: 3px;
   margin: 4px 0;
   border-radius: 2px;
-  background: var(--light-bg-color);
+  background: var(--accent-color);
 }
 
 .site-navbar .navbar-nav .nav-item {
@@ -70,9 +71,10 @@ body {
 
 .site-navbar .navbar-nav .nav-link {
   padding: 0.65rem 0.75rem;
+  border-bottom: 2px solid transparent;
   border-radius: 6px;
-  color: var(--light-bg-color);
-  font-family: "Jost", sans-serif;
+  color: var(--accent-color);
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.05rem;
   font-weight: 500;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -80,8 +82,9 @@ body {
 
 .site-navbar .navbar-nav .nav-link:hover,
 .site-navbar .navbar-nav .nav-link.active {
-  background: rgba(242, 242, 242, 0.14);
-  color: #ffffff;
+  background: transparent;
+  color: var(--accent-color);
+  border-bottom-color: var(--highlight-color);
 }
 
 .site-navbar .navbar-nav .nav-link.active {
@@ -91,9 +94,9 @@ body {
 .footer {
   width: 100%;
   padding: 1rem 1.25rem;
-  background: var(--accent-color);
-  box-shadow: 0 -3px 14px rgba(55, 71, 242, 0.15);
-  color: #ffffff;
+  border-top: 1px solid var(--champagne-color);
+  background: var(--light-bg-color);
+  color: var(--accent-color);
 }
 
 .footer-inner {
@@ -121,18 +124,18 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--accent-color);
   font-size: 1.1rem;
   text-decoration: none;
 }
 
 .footer-icons a:hover {
-  color: var(--light-bg-color);
+  color: var(--highlight-color);
 }
 
 .footer-copywright {
   margin: 0;
-  color: #ffffff;
+  color: var(--accent-color);
   font-size: 0.9rem;
   text-align: right;
 }

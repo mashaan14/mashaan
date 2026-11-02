@@ -26,7 +26,7 @@
   gap: 0.35rem;
   margin: 1rem 0 0.65rem;
   color: var(--accent-color);
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -36,7 +36,7 @@
 .heading-name {
   margin: 0;
   padding: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: clamp(2.25rem, 6vw, 4.25rem);
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -64,8 +64,8 @@
 .home-role {
   max-width: 760px;
   margin: 0.6rem auto 0;
-  color: rgba(13, 13, 13, 0.7);
-  font-family: "Jost", sans-serif;
+  color: var(--imp-text-color);
+  font-family: "Roboto Flex", sans-serif;
   font-size: clamp(1.05rem, 2.5vw, 1.35rem);
   font-weight: 400;
   line-height: 1.55;
@@ -90,9 +90,9 @@
   padding: 0.65rem 1.1rem;
   border: 1px solid var(--accent-color);
   border-radius: 8px;
-  background: #ffffff;
+  background: var(--champagne-color);
   color: var(--accent-color);
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   text-align: center;
@@ -102,8 +102,9 @@
 
 .home-action-primary,
 .home-action:hover {
-  background: var(--accent-color);
-  color: #ffffff;
+  background: var(--champagne-color);
+  color: var(--accent-color);
+  border-color: var(--highlight-color);
 }
 
 .home-action:hover {
@@ -111,23 +112,23 @@
 }
 
 .home-action-primary:hover {
-  background: var(--highlight-color);
+  background: var(--light-bg-color);
   border-color: var(--highlight-color);
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 .home-about-section {
   max-width: 900px;
   margin: 3.5rem auto 0;
   padding-top: 2rem;
-  border-top: 1px solid rgba(55, 71, 242, 0.16);
+  border-top: 1px solid var(--light-bg-color);
 }
 
 .home-section-title,
 .home-about-social-text {
   margin: 0 0 1rem;
   color: var(--imp-text-color);
-  font-family: "Jost", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
@@ -185,8 +186,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: var(--accent-color);
-  color: #ffffff;
+  border: 1px solid var(--accent-color);
+  background: var(--light-bg-color);
+  color: var(--accent-color);
   font-size: 1.15rem;
   text-decoration: none;
   transition: background-color 0.2s ease, transform 0.2s ease;
@@ -194,8 +196,8 @@
 
 .home-social-icons:hover {
   transform: translateY(-2px);
-  background: var(--highlight-color);
-  color: #ffffff;
+  background: var(--champagne-color);
+  color: var(--accent-color);
 }
 
 .flag-icons {
