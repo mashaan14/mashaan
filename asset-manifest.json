@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mashaan/static/css/main.dd40aa8c.css",
+    "main.css": "/mashaan/static/css/main.a07d28fb.css",
     "main.js": "/mashaan/static/js/main.a3282e85.js",
     "static/js/787.1ed0c42c.chunk.js": "/mashaan/static/js/787.1ed0c42c.chunk.js",
     "static/media/Icon_KFUPM.svg": "/mashaan/static/media/Icon_KFUPM.48a8c4e982bd61bcd8c39a9f4b68f8e5.svg",
@@ -8,12 +8,12 @@
     "static/media/Icon_sydney_uni.svg": "/mashaan/static/media/Icon_sydney_uni.dcc47e42adbe4ad36617855c85691ee1.svg",
     "static/media/Flag_of_Australia.svg": "/mashaan/static/media/Flag_of_Australia.de28ab7bef27210da1a96ebe69535bb1.svg",
     "index.html": "/mashaan/index.html",
-    "main.dd40aa8c.css.map": "/mashaan/static/css/main.dd40aa8c.css.map",
+    "main.a07d28fb.css.map": "/mashaan/static/css/main.a07d28fb.css.map",
     "main.a3282e85.js.map": "/mashaan/static/js/main.a3282e85.js.map",
     "787.1ed0c42c.chunk.js.map": "/mashaan/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd40aa8c.css",
+    "static/css/main.a07d28fb.css",
     "static/js/main.a3282e85.js"
   ]
 }
